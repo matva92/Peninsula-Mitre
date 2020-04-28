@@ -1,3 +1,11 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 
 .votos {
     margin-top: 20%;
@@ -10,19 +18,13 @@
 
 
 .carousel-item {
-    height: 500px;
-}
+    max-height: 500px;
+} 
 
 .carousel-item img {
-    position: absolute;
-    top: -300px;
-    left: 0;
-    min-height: 0px;
+
 }
 
-/* .carousel-section {
-      position: relative;
-  } */
 
 .titulo {
     position: absolute;
@@ -35,8 +37,19 @@
     margin-top: -80px;
     color: white;
     text-align: center;
-
 }
+
+.titulo h1{
+    font-size: 3vw;
+    font-weight: 800;
+}
+
+.titulo span{
+    font-size: 1.5vw;
+    font-weight: 800;
+}
+
+
 
 .carousel-foot {
     background-color: rgb(102, 212, 255);
@@ -90,23 +103,25 @@
     text-transform: uppercase;
 }
 
-  nav ul li a,
-  nav ul li a:after,
-  nav ul li a:before {
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
     transition: all .5s;
-  }
-  nav ul li a:hover {
+}
+
+nav ul li a:hover {
     color: #ffffff;
-  }
-  
+}
+
 
 /* Circle */
 nav.circle ul li a {
     position: relative;
     overflow: hidden;
     z-index: 1;
-  }
-  nav.circle ul li a:after {
+}
+
+nav.circle ul li a:after {
     display: block;
     position: absolute;
     margin: 0;
@@ -120,37 +135,40 @@ nav.circle ul li a {
     height: 1px;
     border-radius: 50%;
     background: transparent;
-  }
-  nav.circle ul li a:hover:after {
+}
+
+nav.circle ul li a:hover:after {
     -webkit-animation: circle 1.5s ease-in forwards;
-  }
+}
 
 
-  
-  /* Keyframes */
-  @-webkit-keyframes circle {
+
+/* Keyframes */
+@-webkit-keyframes circle {
     0% {
-      width: 1px;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      margin: auto;
-      height: 1px;
-      z-index: -1;
-      background: rgb(102, 212, 255);
-      border-radius: 100%;
+        width: 1px;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        height: 1px;
+        z-index: -1;
+        background: rgb(102, 212, 255);
+        border-radius: 100%;
     }
+
     100% {
-      background: #aaa;
-      height: 5000%;
-      width: 5000%;
-      z-index: -1;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      margin: auto;
-      border-radius: 0;
+        background: #aaa;
+        height: 5000%;
+        width: 5000%;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-radius: 0;
     }
-  }
+}
+
