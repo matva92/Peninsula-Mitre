@@ -1,18 +1,3 @@
-.nav-links {
-    position: absolute;
-    z-index: 9;
-    right: 1%;
-    margin-top: 1%;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: white;
-    font-size: 0.8rem;
-    /* font-weight: bold; */
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
 
 .votos {
     margin-top: 20%;
@@ -82,3 +67,90 @@
     font-size: 1rem;
     text-decoration: none;
 }
+
+
+/* NAVIGATION */
+
+
+.nav-links {
+    position: absolute;
+    z-index: 9;
+    right: 1%;
+    margin-top: 1%;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    display: block;
+    text-decoration: none;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+  nav ul li a,
+  nav ul li a:after,
+  nav ul li a:before {
+    transition: all .5s;
+  }
+  nav ul li a:hover {
+    color: #ffffff;
+  }
+  
+
+/* Circle */
+nav.circle ul li a {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  nav.circle ul li a:after {
+    display: block;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '.';
+    color: transparent;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    background: transparent;
+  }
+  nav.circle ul li a:hover:after {
+    -webkit-animation: circle 1.5s ease-in forwards;
+  }
+
+
+  
+  /* Keyframes */
+  @-webkit-keyframes circle {
+    0% {
+      width: 1px;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+      height: 1px;
+      z-index: -1;
+      background: rgb(102, 212, 255);
+      border-radius: 100%;
+    }
+    100% {
+      background: #aaa;
+      height: 5000%;
+      width: 5000%;
+      z-index: -1;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      border-radius: 0;
+    }
+  }
