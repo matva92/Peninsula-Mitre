@@ -12,10 +12,6 @@ html,body
     text-transform: uppercase;
 }
 
-/* .vota {
-    margin-top:%;
-} */
-
 
 .carousel-item {
     max-height: 400px;
@@ -108,17 +104,28 @@ html,body
     z-index: 9;
     right: 1%;
     margin-top: 1%;
+    background-color: rgba(128, 128, 128,0.7);
+    padding: 0;
+    margin-bottom: 0;
 }
 
 .nav-links a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 0.8rem;
     letter-spacing: 1px;
     display: block;
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 500;
     text-transform: uppercase;
+}
+
+.nav-links ul{
+    margin: auto;
+}
+
+.nav-links li{
+    padding: 3px;
 }
 
 nav ul li a,
