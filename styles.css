@@ -12,17 +12,19 @@ html,body
     text-transform: uppercase;
 }
 
-.vota {
-    margin-top: 1%;
-}
+/* .vota {
+    margin-top:%;
+} */
 
 
 .carousel-item {
-    max-height: 500px;
+    max-height: 400px;
 } 
 
 .carousel-item img {
-
+    /* position: relative; */
+    top: -300px;
+    left: 0;
 }
 
 
@@ -51,9 +53,24 @@ html,body
 
 
 
+
 .carousel-foot {
     background-color: rgb(102, 212, 255);
     color: white;
+}
+.carousel-foot1 {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.carousel-foot2 {
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
+
+.carousel-foot1 p, .carousel-foot2 p {
+    margin: auto;
 }
 
 .carousel-foot p {
@@ -75,10 +92,11 @@ html,body
 .vota a {
     background-color: white;
     color: rgb(102, 212, 255);
-    border-radius: 30%;
-    padding: 1%;
+    border-radius: 25px;
+    padding: 10px;
     font-size: 1rem;
     text-decoration: none;
+    letter-spacing: 2px;
 }
 
 
@@ -172,3 +190,7 @@ nav.circle ul li a:hover:after {
     }
 }
 
+.votos, .vota a {
+    font-size: 1.5vw;
+    margin: 1.5rem;
+}
