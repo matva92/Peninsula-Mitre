@@ -84,7 +84,7 @@ html,body
     position: absolute;
     z-index: 9;
     margin-left: 3%;
-    height: 100px;
+    max-height: 15vw;
 }
 
 
