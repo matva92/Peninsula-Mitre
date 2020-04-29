@@ -310,7 +310,7 @@ nav.circle ul li a:hover:after {
     border-radius: 100%;
     background-size: 0.5vw;
     position: relative;
-    left: 40vw; /*horizontal position */
+    left: 40vw; 
 }
 
 #carouselExampleIndicators li.active{

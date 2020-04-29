@@ -113,6 +113,19 @@
     max-height: 600px;
 }
 
+#carouselExampleIndicators li {
+    width: 1vw;
+    height: 1vw;
+    border-radius: 100%;
+    background-size: 0.5vw;
+    position: relative;
+    left: 40vw; /*horizontal position */
+}
+
+#carouselExampleIndicators li.active{
+    background-color:#66d4ff;;
+}
+
 
 
 @media screen and (max-width: 767px) {
