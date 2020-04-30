@@ -155,38 +155,10 @@ nav.circle ul li a:hover:after {
 
 
 
-/* Keyframes */
-@-webkit-keyframes circle {
-    0% {
-        width: 1px;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        margin: auto;
-        height: 1px;
-        z-index: -1;
-        background: rgb(102, 212, 255);
-        border-radius: 100%;
-    }
-
-    100% {
-        background: #aaa;
-        height: 5000%;
-        width: 5000%;
-        z-index: -1;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
-        border-radius: 0;
-    }
-}
 
 .votos, .vota a {
-    font-size: 1.5vw;
-    margin: 1.5rem;
+    font-size: 1.8vw;
+    margin: 3vw;
 }
 
 .amenazas h1 {
@@ -216,7 +188,11 @@ nav.circle ul li a:hover:after {
 .imgamenazas img {
     width: 31%;
     margin-bottom: 1.75%;
+    opacity: 70%;
+}
 
+.imgamenazas img:hover{
+    opacity: 100%;
 }
 
 
@@ -324,4 +300,34 @@ nav.circle ul li a:hover:after {
       padding-bottom: 0%;
     }
   }
+
+
+/* Keyframes */
+@-webkit-keyframes circle {
+    0% {
+        width: 1px;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        height: 1px;
+        z-index: -1;
+        background: rgb(102, 212, 255);
+        border-radius: 100%;
+    }
+
+    100% {
+        background: #aaa;
+        height: 5000%;
+        width: 5000%;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-radius: 0;
+    }
+}
 
