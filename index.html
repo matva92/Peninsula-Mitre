@@ -51,7 +51,7 @@
 					</h2> -->
 				</div>
 				<h1>PENÍNSULA MITRE</h1>
-				<h3 class="votos" id="votos"></h3>
+				<h3 class="votos" id="votos">Somos</h3>
 				<h4 class="vota">
 					<a href="https://www.change.org/p/conservemos-pen%C3%ADnsula-mitre-que-sea-%C3%A1rea-natural-
 							protegida-gobiernotdf-monica-urquiza-federicobilota-legismmartinez-pablovillegas19" target="_blank">
@@ -98,7 +98,7 @@
 			<div class="col-sm-12 carousel-foot">
 				<p>Desde que se realizó la primer campaña para estudiar y comprender sus valores en 1984, distintos
 					organismos de gobierno, organizaciones de la sociedad civil,
-					la comunidad y los sectores académicos y científicos buscan que Península Mitre sea protegida.
+					la comunidad y los sectores académicos y científicos buscan zque Península Mitre sea protegida.
 				</p>
 			</div>
 		</div>
@@ -120,8 +120,6 @@
 					provincia.
 					La ley que crea el Área Natural Protegida Península Mitre podría resguardar a la Península para
 					siempre.
-
-
 				</p>
 			</div>
 			<div class="col-sm-12">
@@ -238,7 +236,7 @@
 					return data.substring(index, index2)
 				})
 				.then(data => $("#votos").html("Somos " + data.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.')))
-				// .then(console.log("hola"))
+				.then(()=>{$(".votos").css("color","white");})
 				.catch(console.error)
 		}
 		votos()
