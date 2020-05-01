@@ -367,18 +367,55 @@ nav.circle ul li a:hover:after {
     flex-grow: 0.5;
     border-bottom: 5px solid white;
     margin: auto 0px;
-    max-width:  100px;
+    max-width: 100px;
     padding: 0;
 }
 
-.nav-footer{
+.nav-footer {
     background-color: rgb(253, 253, 253);
     height: 20vw;
+    
 }
 
-.imagen-footer{
+.imagen-footer {
     mix-blend-mode: multiply;
-    margin-top: 5vw;
+    margin-top: 4.5vw;
     margin-left: 4vw;
-    width: 10vw
+    height: 50%;
+}
+
+
+.footer-links {
+    list-style: none;
+    margin-top: 5.5vw;
+    margin-left: 6vw;
+}
+
+.footer-links a:hover{
+    background-color:  rgb(91, 199, 241);
+    color: white;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: rgb(91, 199, 241);
+    font-size: 0.8vw;    
+    text-transform: uppercase;
+    transition: 0.1s;
+}
+
+.vota-footer{
+    /* position: relative; */
+}
+.vota-footer a{
+    /* position: absolute; */
+    text-decoration: none;
+    color: white;
+    background-color:  rgb(91, 199, 241);
+    border-radius: 25px;
+    padding: 5px;
+    font-size: 1vw;
+  
 }
