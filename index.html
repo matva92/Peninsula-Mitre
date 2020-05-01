@@ -62,7 +62,7 @@
 
 			<!-- Carousel -->
 
-			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="false">
 				<ol class="carousel-indicators">
 					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -184,7 +184,7 @@
 	<div class="container-fluid seccion-bajo">
 		<div class="row">
 			<div class="col-sm-12" id="galeria">
-				<div id="seccion-bajo-carousel" class="carousel slide" data-ride="carousel">
+				<div id="seccion-bajo-carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="false">
 					<ol class="carousel-indicators">
 						<li data-target="#seccion-bajo-carousel" data-slide-to="0" class="active"></li>
 						<li data-target="#seccion-bajo-carousel" data-slide-to="1"></li>
@@ -222,6 +222,8 @@
 	<script src="https://code.jquery.com/jquery-3.5.0.js"
 		integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
 	<script>
+		
+
 		function votos() {
 			var servidor =
 				'https://cors-anywhere.herokuapp.com/' +
@@ -236,7 +238,9 @@
 					return data.substring(index, index2)
 				})
 				.then(data => $("#votos").html("Somos " + data.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.')))
-				.then(()=>{$(".votos").css("color","white");})
+				.then(() => {
+					$(".votos").css("color", "white");
+				})
 				.catch(console.error)
 		}
 		votos()

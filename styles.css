@@ -87,7 +87,11 @@ html,body
 
 .votos, .vota a {
     font-size: 1.8vw;
-    margin: 3vw;
+    margin: 2vw;
+}
+
+.vota a{
+    margin-bottom: 50px;
 }
 
 .vota a:hover{
