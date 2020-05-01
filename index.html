@@ -252,7 +252,6 @@
 
 			fetch(servidor)
 				.then(res => res.text())
-				// .then(data => console.log(data))
 				.then(data => {
 					var index = data.match("displayed").index + 11;
 					var index2 = data.match(`,"goal"`).index;
