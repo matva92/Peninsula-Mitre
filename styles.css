@@ -53,6 +53,7 @@ body {
 
 .carousel-foot p {
     margin-top: 1%;
+    margin-bottom: 1%;
     margin-left: 0.2%;
     font-size: 1.2vw;
     font-style: italic;
@@ -66,7 +67,7 @@ body {
 }
 
 .votos-vota{
-    margin-top: 5vw;
+    margin-top: 3vw;
 }
 
 .vota a {
