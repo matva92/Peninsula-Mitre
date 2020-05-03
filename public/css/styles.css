@@ -407,17 +407,11 @@ nav.circle ul li a:hover:after {
 
 .imagen-footer {
     mix-blend-mode: multiply;
-    margin-top: 4.5vw;
-    margin-left: 4vw;
-    height: 50%;
-    width: 50%;
 }
 
 
 .footer-links {
     list-style: none;
-    margin-top: 5.5vw;
-    margin-left: 6vw;
 }
 
 .footer-links a:hover{
@@ -429,10 +423,14 @@ nav.circle ul li a:hover:after {
 
 .footer-links a{
     text-decoration: none;
-    color: rgb(91, 199, 241);
-    font-size: 0.8vw;    
+    color: rgb(91, 199, 241);    
     text-transform: uppercase;
     transition: 0.1s;
+}
+
+.vota-footer {
+    position: relative;
+        bottom:2vh;
 }
 
 .vota-footer a{
@@ -441,10 +439,9 @@ nav.circle ul li a:hover:after {
     background-color:  rgb(91, 199, 241);
     border-radius: 25px;
     padding: 5px;
-    font-size: 0.9vw;
+    font-size: .8rem;
     transition: 0.5s;
     font-weight: bold;
-    margin-left: 5vw;
 }
 
 .vota-footer a:hover{
