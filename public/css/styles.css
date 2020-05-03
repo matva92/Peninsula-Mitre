@@ -280,15 +280,18 @@ nav.circle ul li a:hover:after {
 }
 
 .imgamenazas .box .details .content h2{
-    margin: 0;
+    left: 50%;
     padding: 0;
-    font-size: 20px;
+    font-size: 2vw;
     color: #66d4ff;
+    max-height: 100%;
 }
 
 .imgamenazas .box .details .content p{
     margin: 10px 0 0;
     padding: 0;
+    max-height: 100%;
+    font-size: 1VW;
 }
 
 
