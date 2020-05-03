@@ -401,6 +401,75 @@ nav.circle ul li a:hover:after {
 
 
 
+/* Flora Fauna y Arqueologia */
+
+.titulo-fauna {
+    font-size: 3rem;
+}
+
+.parrafos{
+    font-size: .75rem;
+}
+
+.marinas {
+    width:95%;
+    position: relative;
+        bottom: 6vh;
+}
+
+.originarios {
+    width:85%;
+    position: relative;
+        bottom: 15vh;
+        left: 45%;
+}
+
+.indice-rojo::before {
+    font-size: 1.5rem;
+    content: "•"; /* Insert content that looks like bullets */
+    color: red; /* Or a color you prefer */
+}
+
+.indice-naranja::before {
+    font-size: 1.5rem;
+    content: "•"; /* Insert content that looks like bullets */
+    color: orange; /* Or a color you prefer */
+}
+
+.indice-verde::before {
+    font-size: 1.5rem;
+    content: "•"; /* Insert content that looks like bullets */
+    color: green; /* Or a color you prefer */
+  }
+
+.guion {
+    font-size: .8rem;
+}
+
+.guion::before {
+    content: "-"; /* Insert content that looks like bullets */
+    color: white; /* Or a color you prefer */
+}
+
+.guion-rojo::after {
+    font-size: 1.3rem;
+    content: "•"; /* Insert content that looks like bullets */
+    color: red; /* Or a color you prefer */
+}
+
+.guion-naranja::after {
+    font-size: 1.3rem;
+    content: "•"; /* Insert content that looks like bullets */
+    color: orange; /* Or a color you prefer */
+}
+
+.guion-verde::after {
+    font-size: 1.3rem;
+    content: "•"; /* Insert content that looks like bullets */
+    color: green; /* Or a color you prefer */
+}
+
+
 @media screen and (max-width: 767px) {
     .seccion-medio .col-text {
         padding-bottom: 0%;
@@ -510,3 +579,5 @@ nav.circle ul li a:hover:after {
     color:  rgb(91, 199, 241);
     background-color: white;
 }
+
+
