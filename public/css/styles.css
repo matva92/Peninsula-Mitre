@@ -41,7 +41,7 @@ body {
 }
 
 .titulo span {
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     font-weight: 800;
 }
 
@@ -55,7 +55,7 @@ body {
     margin-top: 1%;
     margin-bottom: 1%;
     margin-left: 0.2%;
-    font-size: 1.2vw;
+    font-size: 0.8rem;
     font-style: italic;
 }
 
@@ -75,7 +75,7 @@ body {
     color: rgb(102, 212, 255);
     border-radius: 25px;
     padding: 10px;
-    font-size: 5vw;
+    font-size: 3rem;
     text-decoration: none;
     letter-spacing: 2px;
     transition: 0.6s;
@@ -90,7 +90,7 @@ body {
 
 .votos,
 .vota a {
-    font-size: 2vw;
+    font-size: 2.5vw;
     margin: 2vw;
     transition: 0.5s;
 }
@@ -193,11 +193,11 @@ nav.circle ul li a:hover:after {
     margin: 5%;
     margin-bottom: 2%;
     letter-spacing: 0.5vw;
-    font-size: 2vw;
+    font-size: 1rem;
 }
 
 .mapa p, .amenazas p {
-    font-size: 1.3vw;
+    font-size: 0.8rem;
     text-align: center;
     margin-bottom: 5%;
     padding: 0 10%;
@@ -271,6 +271,7 @@ nav.circle ul li a:hover:after {
     background: rgba(0,0,0,.8);
     transform: scaleY(0);
     transition: transform .5s;
+    max-height: 100%;
 }
 
 .imgamenazas .box:hover .details {
@@ -289,7 +290,7 @@ nav.circle ul li a:hover:after {
 .imgamenazas .box .details .content h2{
     left: 50%;
     padding: 0;
-    font-size: 2vw;
+    font-size: 2.5vw;
     color: #66d4ff;
     max-height: 100%;
 }
@@ -298,7 +299,8 @@ nav.circle ul li a:hover:after {
     margin: 10px 0 0;
     padding: 0;
     max-height: 100%;
-    font-size: 1VW;
+    font-size: 0.9vw;
+    max-height: 100%;
 }
 
 
@@ -308,7 +310,7 @@ nav.circle ul li a:hover:after {
 }
 
 .seccion-medio p {
-    font-size: 1.2vw;
+    font-size: 0.8rem;
     margin-top: 3vw;
     text-align: justify;
 }
@@ -321,13 +323,13 @@ nav.circle ul li a:hover:after {
 
 .seccion-medio-titulo {
     letter-spacing: 0.5vw;
-    font-size: 1.5vw;
+    font-size: 1rem;
 }
 
 .seccion-medio-titulo-ul {
     margin-top: 4vw;
     margin-bottom: 3vw;
-    font-size: 1.3vw;
+    font-size: 0.9rem;
 }
 
 .seccion-medio-ul {
@@ -349,7 +351,7 @@ nav.circle ul li a:hover:after {
 
 .seccion-medio-ul li {
     margin-bottom: 3%;
-    font-size: 1.2vw;
+    font-size: 0.8rem;
     text-align: justify;
 }
 
