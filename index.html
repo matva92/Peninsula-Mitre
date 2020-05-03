@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="public/css/icons/icons.css">
 	<!-- <link rel="stylesheet" href="mati.css"> -->
 	<title>Península Mitre</title>
-	<link rel="icon" type="image/png" href="/public/images/favico.png">
+	<link rel="icon" type="image/png" href="public/images/favico.png">
 </head>
 
 <body>
@@ -83,7 +83,7 @@
 					<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
 					<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
 				</ol>
-				
+
 				<div class="carousel-inner">
 					<div class="carousel-item a active">
 						<img class="d-block w-100" src="public/images/carou_1.jpg" alt="First slide">
@@ -139,7 +139,7 @@
 				<h1 id="linea-tiempo">Linea De Tiempo</h1>
 			</div>
 		</div>
-		<img src="public/images/mapa.png" class="tiempo-img" alt="">
+		<img src="public/images/linea.png" id="linea" class="tiempo-img" alt="">
 		<div class="row flora-fauna">
 			<div class="col-sm-12">
 				<h1 id="linea-tiempo">Fauna</h1>
@@ -168,12 +168,84 @@
 			</div>
 			<div class="col-sm-12">
 				<div class="imgamenazas">
-					<img class="item-1" src="public/images/carou_1.jpg" alt="">
-					<img class="item-2" src="public/images/carou_1.jpg" alt="">
-					<img class="item-3" src="public/images/carou_1.jpg" alt="">
-					<img class="item-4" src="public/images/carou_1.jpg" alt="">
-					<img class="item-5" src="public/images/carou_1.jpg" alt="">
-					<img class="item-6" src="public/images/carou_1.jpg" alt="">
+					<div class="box">
+						<div class="imgbox">
+							<img class="item-1" src="public/images/carou_1.jpg" alt="">
+						</div>
+						<div class="details">
+							<div class="content">
+								<h2>
+									lorem
+								</h2>
+								<p>lorem lorem lorem lorem lorem lorem </p>
+							</div>
+						</div>
+					</div>
+					<div class="box">
+						<div class="imgbox">
+							<img class="item-2" src="public/images/carou_1.jpg" alt="">
+						</div>
+						<div class="details">
+							<div class="content">
+								<h2>
+									lorem
+								</h2>
+								<p>lorem lorem lorem lorem lorem lorem </p>
+							</div>
+						</div>
+					</div>
+					<div class="box">
+						<div class="imgbox">
+							<img class="item-3" src="public/images/carou_1.jpg" alt="">
+						</div>
+						<div class="details">
+							<div class="content">
+								<h2>
+									lorem
+								</h2>
+								<p>lorem lorem lorem lorem lorem lorem </p>
+							</div>
+						</div>
+					</div>
+					<div class="box">
+						<div class="imgbox">
+							<img class="item-4" src="public/images/carou_1.jpg" alt="">
+						</div>
+						<div class="details">
+							<div class="content">
+								<h2>
+									lorem
+								</h2>
+								<p>lorem lorem lorem lorem lorem lorem </p>
+							</div>
+						</div>
+					</div>
+					<div class="box">
+						<div class="imgbox">
+							<img class="item-5" src="public/images/carou_1.jpg" alt="">
+						</div>
+						<div class="details">
+							<div class="content">
+								<h2>
+									lorem
+								</h2>
+								<p>lorem lorem lorem lorem lorem lorem </p>
+							</div>
+						</div>
+					</div>
+					<div class="box">
+						<div class="imgbox">
+							<img class="item-6" src="public/images/carou_1.jpg" alt="">
+						</div>
+						<div class="details">
+							<div class="content">
+								<h2>
+									lorem
+								</h2>
+								<p>lorem lorem lorem lorem lorem lorem </p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -304,32 +376,8 @@
 	<script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.5.0.js"
 		integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
-	<script>
-		// $(document).ready(function(){
-		// 		$(".menu-item").hide();
-		// 	});
+	<script src="votos.js"></script>
 
-		function votos() {
-			var servidor =
-				'https://cors-anywhere.herokuapp.com/' +
-				'https://www.change.org/p/conservemos-pen%C3%ADnsula-mitre-que-sea-%C3%A1rea-natural-protegida-gobiernotdf-monica-urquiza-federicobilota-legismmartinez-pablovillegas19';
-
-			fetch(servidor)
-				.then(res => res.text())
-				.then(data => {
-					var index = data.match("displayed").index + 11;
-					var index2 = data.match(`,"goal"`).index;
-					return data.substring(index, index2)
-				})
-				.then(data => $("#votos").html("Somos " + data.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.')))
-				.then(() => {
-					$(".votos").css("color", "white");
-				})
-				.catch(console.error)
-		}
-		votos()
-		// window.setInterval(votos, 60000)
-	</script>
 </body>
 
 </html>
