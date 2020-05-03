@@ -244,14 +244,17 @@ nav.circle ul li a:hover:after {
 }
 
 .imgamenazas .imgbox{
-    position: relative;
+    /* position: relative; */
     overflow: hidden;
+    height: 20vw;
 }
 
 .imgamenazas .imgbox img {
-    max-width: 100%;
     opacity: 70%;
     transition: 0.5s;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 
 .imgamenazas img:hover {
