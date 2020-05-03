@@ -65,7 +65,9 @@ body {
     max-height: 15vw;
 }
 
-
+.votos-vota{
+    margin-top: 5vw;
+}
 
 .vota a {
     background-color: white;
@@ -79,7 +81,7 @@ body {
 }
 
 .votos {
-    margin-top: 20%;
+    margin-top: 50%;
     text-transform: uppercase;
     color: transparent;
     transition: 0.9s;
@@ -87,8 +89,13 @@ body {
 
 .votos,
 .vota a {
-    font-size: 1.8vw;
+    font-size: 2vw;
     margin: 2vw;
+    transition: 0.5s;
+}
+
+.votos:hover{
+    font-size: 2.5vw;
 }
 
 .vota a {
@@ -173,7 +180,9 @@ nav.circle ul li a:hover:after {
 
 
 
-.amenazas h1 {
+.mapa h1, 
+.amenazas h1, 
+.linea-tiempo h1 {
     text-align: center;
     text-transform: uppercase;
     margin: 5%;
@@ -182,11 +191,30 @@ nav.circle ul li a:hover:after {
     font-size: 2vw;
 }
 
-.amenazas p {
+.mapa p, .amenazas p {
     font-size: 1.3vw;
     text-align: center;
     margin-bottom: 5%;
     padding: 0 10%;
+}
+
+.mapa-img {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.tiempo-img {
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 3vw;
+}
+
+.flora-fauna{
+    margin-top: 3vw;
+    background-color:  #66d4ff;
+    color: white;
 }
 
 .imgamenazas {
@@ -382,6 +410,7 @@ nav.circle ul li a:hover:after {
     margin-top: 4.5vw;
     margin-left: 4vw;
     height: 50%;
+    width: 50%;
 }
 
 
@@ -406,16 +435,24 @@ nav.circle ul li a:hover:after {
     transition: 0.1s;
 }
 
-.vota-footer{
-    /* position: relative; */
-}
 .vota-footer a{
-    /* position: absolute; */
     text-decoration: none;
     color: white;
     background-color:  rgb(91, 199, 241);
     border-radius: 25px;
     padding: 5px;
-    font-size: 1vw;
-  
+    font-size: 0.9vw;
+    transition: 0.5s;
+    font-weight: bold;
+    margin-left: 5vw;
+}
+
+.vota-footer a:hover{
+    color:  rgb(91, 199, 241);
+    background-color: white;
+}
+
+.footer-img-flex{
+    display: flex;
+    flex-direction: column ;
 }
