@@ -173,7 +173,9 @@ nav.circle ul li a:hover:after {
 
 
 
-.mapa h1, .amenazas h1 {
+.mapa h1, 
+.amenazas h1, 
+.linea-tiempo h1 {
     text-align: center;
     text-transform: uppercase;
     margin: 5%;
@@ -193,6 +195,19 @@ nav.circle ul li a:hover:after {
     width: 90%;
     display: block;
     margin: auto;
+}
+
+.tiempo-img {
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 3vw;
+}
+
+.flora-fauna{
+    margin-top: 3vw;
+    background-color:  #66d4ff;
+    color: white;
 }
 
 .imgamenazas {
