@@ -111,10 +111,9 @@ body {
 
 /* NAVIGATION */
 
-
 .nav-links {
     position: absolute;
-    z-index: 9;
+    z-index: 10;
     right: 1%;
     margin-top: 1%;
     background-color: rgba(128, 128, 128, 0.7);
@@ -131,6 +130,11 @@ body {
     text-decoration: none;
     font-weight: 500;
     text-transform: uppercase;
+}
+
+.icon-menu::before{
+    color: gainsboro;
+    font-size: 1.5rem;
 }
 
 .nav-links ul {
@@ -402,7 +406,7 @@ nav.circle ul li a:hover:after {
 
 .nav-footer {
     background-color: rgb(253, 253, 253);
-    height: 20vw;
+    height: 10vh;
     
 }
 
@@ -448,9 +452,4 @@ nav.circle ul li a:hover:after {
 .vota-footer a:hover{
     color:  rgb(91, 199, 241);
     background-color: white;
-}
-
-.footer-img-flex{
-    display: flex;
-    flex-direction: column ;
 }

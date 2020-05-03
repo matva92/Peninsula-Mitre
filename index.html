@@ -25,27 +25,27 @@
 	<div style="position: relative;">
 		<nav class="nav-links circle">
 			<ul class="list-unstyled list-inline text-center d-md-flex align-items-center">
+				<li class="text-center d-md-none"><a class="icon-menu"></a></li>
 				<li class="list-inline-item d-none d-md-inline-flex"><a>|</a></li>
-				<li class="list-inline-item d-block text-center d-md-inline-flex"><a
-						href="#conservacion">Conservacion</a></li>
+				<li class="list-inline-item d-none text-center d-md-inline-flex"><a class="" href="#conservacion">Conservacion</a></li>
 				<li class="list-inline-item d-none d-md-inline-flex"><a>|</a></li>
-				<li class="list-inline-item d-block text-center d-md-inline-flex"><a href="#valores">Valores</a></li>
+				<li class="list-inline-item d-none text-center d-md-inline-flex"><a class="" href="#valores">Valores</a></li>
 				<li class="list-inline-item d-none d-md-inline-flex"><a>|</a></li>
-				<li class="list-inline-item d-block text-center d-md-inline-flex"><a href="#amenazas">Amenazas</a></li>
+				<li class="list-inline-item d-none text-center d-md-inline-flex"><a class="" href="#amenazas">Amenazas</a></li>
 				<li class="list-inline-item d-none d-md-inline-flex"><a>|</a></li>
-				<li class="list-inline-item d-block text-center d-md-inline-flex"><a href="https://www.change.org/p/conservemos-pen%C3%ADnsula-mitre-que-sea-%C3%A1rea-natural-
+				<li class="list-inline-item d-none text-center d-md-inline-flex"><a class="" href="https://www.change.org/p/conservemos-pen%C3%ADnsula-mitre-que-sea-%C3%A1rea-natural-
 					protegida-gobiernotdf-monica-urquiza-federicobilota-legismmartinez-pablovillegas19" target="_blank">Vota</a></li>
 				<li class="list-inline-item d-none d-md-inline-flex"><a>|</a></li>
-				<li class="list-inline-item d-block text-center d-md-inline-flex"><a href="#galeria">Galeria</a></li>
+				<li class="list-inline-item d-none text-center d-md-inline-flex"><a class="" href="#galeria">Galeria</a></li>
 				<li class="list-inline-item d-none d-md-inline-flex"><a>|</a></li>
 				
-				<li class="list-inline-item">
+				<li class="list-inline-item d-none d-md-inline-flex">
 					<a target="_blank" class="mt-1"  href="https://www.linkedin.com/in/mart%C3%ADn-ibarz%C3%A1bal-11b21630/"><span class="icon-facebook"></span></a>
 				</li>
-				<li class="list-inline-item">
+				<li class="list-inline-item d-none d-md-inline-flex">
 					<a target="_blank" class="mt-1" href="https://api.whatsapp.com/send?phone=5491166361321"><span class="icon-youtube"></span></a>
 				</li>
-				<li class="list-inline-item">
+				<li class="list-inline-item d-none d-md-inline-flex">
 					<a target="_blank" class="mt-1" href="mailto:info@ibarzabal.com"><span class="icon-instagram"></span></a>
 				</li>
 			</ul>
@@ -56,9 +56,10 @@
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="titulo">
-				<div class="dashed">
+				<div class="d-none d-md-block dashed">
 					<span> &nbsp&nbsp Área Natural Protegida &nbsp&nbsp </span>
 				</div>
+					<span class="d-md-none"> Área Natural Protegida </span>
 				<h1>PENÍNSULA MITRE</h1>
 				<div class="votos-vota">
 					<h3 class="votos" id="votos">Somos</h3>
@@ -253,33 +254,37 @@
 
 
 	<div class="container-fluid">
-		<div class="row nav-footer d-flex align-items-center justify-content-center">
-			<div class="d-inline-flex">
-				<div class="footer-img-flex align-items-center">
-					<img class="imagen-footer ml-4 pl-4" src="public/images/favico.png" alt="">
-					<div class="vota-footer mb-4">
-						<a class="" href="https://www.change.org/p/conservemos-pen%C3%ADnsula-mitre-que-sea-%C3%A1rea-natural-
-								protegida-gobiernotdf-monica-urquiza-federicobilota-legismmartinez-pablovillegas19" target="_blank">
-							VOTAR
-						</a>
-					</div>
-				</div>
-				<ul class="footer-links d-flex align-items-center p-0">
-					<li class="list-inline-item"><a class="h6 mx-1" href="#conservacion">Conservacion</a></li>
-					<li class="list-inline-item"><a class="h6 mx-1" href="#valores">Valores</a></li>
-					<li class="list-inline-item"><a class="h6 mx-1" href="#amenazas">Amenazas</a></li>
-					<li class="list-inline-item"><a class="h6 mx-1" href="https://www.change.org/p/conservemos-pen%C3%ADnsula-mitre-que-sea-%C3%A1rea-natural-
+		<div class="nav-footer">
+			<div class="row d-flex align-items-center justify-content-center">
+				<ul class="col-12 footer-links d-flex align-items-center justify-content-between pr-4 mr-4">
+					<li>
+						<div class="footer-img-flex align-items-center justify-content-center mr-4 pr-4">
+						<img class="imagen-footer ml-4 pl-4" src="public/images/favico.png" alt="">
+						<div class="vota-footer text-center mb-4">
+							<a class="" href="https://www.change.org/p/conservemos-pen%C3%ADnsula-mitre-que-sea-%C3%A1rea-natural-
+									protegida-gobiernotdf-monica-urquiza-federicobilota-legismmartinez-pablovillegas19" target="_blank">
+								VOTAR
+							</a>
+							</div>
+						</div>
+					</li>
+					<li class="list-inline-item d-none d-md-inline-flex"><a class="h6" href="#conservacion">Conservacion</a></li>
+					<li class="list-inline-item d-none d-md-inline-flex"><a class="h6" href="#valores">Valores</a></li>
+					<li class="list-inline-item d-none d-md-inline-flex"><a class="h6" href="#amenazas">Amenazas</a></li>
+					<li class="list-inline-item d-none d-md-inline-flex"><a class="h6" href="https://www.change.org/p/conservemos-pen%C3%ADnsula-mitre-que-sea-%C3%A1rea-natural-
 						protegida-gobiernotdf-monica-urquiza-federicobilota-legismmartinez-pablovillegas19" target="_blank">Vota</a></li>
-					<li class="list-inline-item"><a class="h6 mx-1" href="#galeria">Galeria</a></li>
-					<li class="list-inline-item">
-						<a target="_blank" class="h6 mx-1"  href="https://www.linkedin.com/in/mart%C3%ADn-ibarz%C3%A1bal-11b21630/"><span class="icon-facebook"></span></a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" class="h6 mx-1" href="https://api.whatsapp.com/send?phone=5491166361321"><span class="icon-youtube"></span></a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" class="h6 mx-1" href="mailto:info@ibarzabal.com"><span class="icon-instagram"></span></a>
-					</li>
+					<li class="list-inline-item d-none d-md-inline-flex"><a class="h6" href="#galeria">Galeria</a></li>
+					<div class="text-center">
+						<li class="list-inline-item">
+							<a target="_blank" class="h6"  href="https://www.linkedin.com/in/mart%C3%ADn-ibarz%C3%A1bal-11b21630/"><span class="icon-facebook"></span></a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" class="h6" href="https://api.whatsapp.com/send?phone=5491166361321"><span class="icon-youtube"></span></a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" class="h6" href="mailto:info@ibarzabal.com"><span class="icon-instagram"></span></a>
+						</li>
+					</div>
 				</ul>
 			</div>
 		</div>
@@ -300,6 +305,10 @@
 	<script src="https://code.jquery.com/jquery-3.5.0.js"
 		integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
 	<script>
+		// $(document).ready(function(){
+		// 		$(".menu-item").hide();
+		// 	});
+
 		function votos() {
 			var servidor =
 				'https://cors-anywhere.herokuapp.com/' +
