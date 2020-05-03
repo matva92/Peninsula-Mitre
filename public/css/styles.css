@@ -443,28 +443,30 @@ nav.circle ul li a:hover:after {
   }
 
 .guion {
-    font-size: .8rem;
+    font-size: .7rem;
+    margin: 0 auto;
 }
 
 .guion::before {
+    font-size:.7rem;
     content: "-"; /* Insert content that looks like bullets */
     color: white; /* Or a color you prefer */
 }
 
 .guion-rojo::after {
-    font-size: 1.3rem;
+    font-size: 1rem;
     content: "•"; /* Insert content that looks like bullets */
     color: red; /* Or a color you prefer */
 }
 
 .guion-naranja::after {
-    font-size: 1.3rem;
+    font-size: 1rem;
     content: "•"; /* Insert content that looks like bullets */
     color: orange; /* Or a color you prefer */
 }
 
 .guion-verde::after {
-    font-size: 1.3rem;
+    font-size: 1rem;
     content: "•"; /* Insert content that looks like bullets */
     color: green; /* Or a color you prefer */
 }
