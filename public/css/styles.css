@@ -53,6 +53,7 @@ body {
         right: 30% !important;
         bottom: 15vh !important;
     transform: translate3d(0px,0px,0px)!important;
+    left: 7px !important;
 }
 
 .carousel-foot {
@@ -611,5 +612,13 @@ nav.circle ul li a:hover:after {
     color:  rgb(91, 199, 241);
     background-color: white;
 }
+
+.icon-menu {
+    /* display: inline !important; */
+    /* outline: none !important; */
+    padding: 0px 75px;
+}
+
+
 
 
