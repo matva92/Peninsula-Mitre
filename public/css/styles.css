@@ -52,6 +52,7 @@ body {
     position: relative !important;
         right: 30% !important;
         bottom: 15vh !important;
+    transform: translate3d(0px,0px,0px)!important;
 }
 
 .carousel-foot {
