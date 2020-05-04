@@ -580,10 +580,6 @@ nav.circle ul li a:hover:after {
     transition: 0.1s;
 }
 
-.vota-footer {
-    position: relative;
-        bottom:2vh;
-}
 
 .vota-footer a{
     text-decoration: none;
