@@ -42,6 +42,14 @@ body {
     font-weight: 800;
 }
 
+.dropdown-menu {
+    background-color: transparent;
+    color: white;
+    border: none;
+    position: relative;
+        right: 40%;
+}
+
 .carousel-foot {
     background-color: #66d4ff;
     color: white;
