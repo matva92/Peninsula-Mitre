@@ -65,7 +65,13 @@ body {
 
 .votos-vota{
     margin-top: 3vw;
-    margin-bottom: 30px;
+    margin-bottom: 2vw;
+    max-height: 30%;
+}
+
+
+h4.vota{
+    font-size: 1vw;
 }
 
 .vota a {
@@ -81,10 +87,11 @@ body {
 }
 
 .votos {
-    margin-top: 50%;
+    margin-top: 30%;
     text-transform: uppercase;
     color: transparent;
     transition: 0.9s;
+    /* height: 0.8vw; */
 }
 
 .votos,
@@ -92,7 +99,7 @@ body {
     font-size: 2vw;
     margin: 5vw;
     transition: 0.5s;
-    margin-bottom: 0px;
+    margin-bottom: 2vw;
 }
 
 .votos{
@@ -112,11 +119,6 @@ body {
 .votos{
     transform: translateY(-50%);
 }
-
-.vota{
-    margin-bottom: 50px;
-}
-
 
 
 /* NAVIGATION */
@@ -300,7 +302,7 @@ nav.circle ul li a:hover:after {
 .imgamenazas .box .details .content h2{
     left: 50%;
     padding: 0;
-    font-size: 2.5vw;
+    font-size: 0.9vw;
     color: #66d4ff;
     max-height: 100%;
 }
