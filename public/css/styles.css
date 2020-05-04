@@ -205,11 +205,11 @@ nav.circle ul li a:hover:after {
     margin: 5%;
     margin-bottom: 2%;
     letter-spacing: 0.5vw;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .mapa p, .amenazas p {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     text-align: center;
     margin-bottom: 5%;
     padding: 0 10%;
@@ -310,7 +310,7 @@ nav.circle ul li a:hover:after {
 .imgamenazas .box .details .content p{
     margin: 5px 0 0;
     padding: 0;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     max-height: 100%;
 }
 
@@ -321,7 +321,7 @@ nav.circle ul li a:hover:after {
 }
 
 .seccion-medio p {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     margin-top: 3vw;
     text-align: justify;
 }
@@ -334,13 +334,13 @@ nav.circle ul li a:hover:after {
 
 .seccion-medio-titulo {
     letter-spacing: 0.5vw;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .seccion-medio-titulo-ul {
     margin-top: 4vw;
     margin-bottom: 3vw;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 
 .seccion-medio-ul {
@@ -362,7 +362,7 @@ nav.circle ul li a:hover:after {
 
 .seccion-medio-ul li {
     margin-bottom: 3%;
-    font-size: 0.8rem;
+    font-size: 1rem;
     text-align: justify;
 }
 
