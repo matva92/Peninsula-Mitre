@@ -8,9 +8,6 @@ body {
     scroll-behavior: smooth;
 }
 
-
-
-
 .carousel-item.a {
     max-height: 400px;
 }
@@ -30,7 +27,7 @@ body {
     left: 50%;
     margin-left: -250px;
     top: 50%;
-    margin-top: -80px;
+    margin-top: -10vw;
     color: white;
     text-align: center;
 }
@@ -41,7 +38,7 @@ body {
 }
 
 .titulo span {
-    font-size: 1.8vw;
+    font-size: 2vw;
     font-weight: 800;
 }
 
@@ -68,17 +65,19 @@ body {
 
 .votos-vota{
     margin-top: 3vw;
+    margin-bottom: 30px;
 }
 
 .vota a {
     background-color: white;
     color: rgb(102, 212, 255);
     border-radius: 25px;
-    padding: 10px;
+    padding: 1vw;
     font-size: 3rem;
     text-decoration: none;
     letter-spacing: 2px;
     transition: 0.6s;
+    margin-bottom: 20px;
 }
 
 .votos {
@@ -90,23 +89,34 @@ body {
 
 .votos,
 .vota a {
-    font-size: 2.5vw;
-    margin: 2vw;
+    font-size: 2vw;
+    margin: 5vw;
     transition: 0.5s;
+    margin-bottom: 0px;
+}
+
+.votos{
+    padding-bottom: 15px;
 }
 
 .votos:hover{
     font-size: 2.5vw;
 }
 
-.vota a {
-    margin-bottom: 50px;
-}
 
 .vota a:hover {
     color: white;
     background-color: rgb(102, 212, 255);
 }
+
+.votos{
+    transform: translateY(-50%);
+}
+
+.vota{
+    margin-bottom: 50px;
+}
+
 
 
 /* NAVIGATION */
@@ -402,6 +412,10 @@ nav.circle ul li a:hover:after {
 #carouselExampleIndicators li.active {
     background-color: #66d4ff;
     ;
+}
+
+.carousel-indicators{
+    margin: 0;
 }
 
 
