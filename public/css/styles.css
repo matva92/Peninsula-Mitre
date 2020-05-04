@@ -49,8 +49,9 @@ body {
     background-color: transparent;
     color: white;
     border: none;
-    position: relative;
-        right: 40%;
+    position: relative !important;
+        right: 30% !important;
+        bottom: 15vh !important;
 }
 
 .carousel-foot {
