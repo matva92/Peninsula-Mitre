@@ -268,7 +268,7 @@ nav.circle ul li a:hover:after {
     overflow: hidden;
 }
 
-.imgamenazas .box:hover {
+.imgamenazas .img:hover {
     opacity: 100%;
     transform: scale(1.2);
     z-index: 9;
