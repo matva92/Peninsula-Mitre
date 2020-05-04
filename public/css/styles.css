@@ -99,14 +99,15 @@ h4.vota{
 
 .votos,
 .vota a {
-    font-size: 2vw;
+    font-size: 1rem;
     margin: 5vw;
     transition: 0.5s;
     margin-bottom: 2vw;
 }
 
 .votos{
-    padding-bottom: 15px;
+    margin-top: 3rem;
+    font-size: 1.3rem;
 }
 
 .votos:hover{
