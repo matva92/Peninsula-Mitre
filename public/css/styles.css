@@ -50,9 +50,9 @@ body {
     color: white;
     border: none;
     position: relative !important;
-        right: 30% !important;
-        bottom: 15vh !important;
-    transform: translate3d(0px,0px,0px)!important;
+    right: 30% !important;
+    bottom: 15vh !important;
+    transform: translate3d(0px, 0px, 0px) !important;
     left: 0px !important;
 }
 
@@ -77,14 +77,14 @@ body {
     max-height: 15vw;
 }
 
-.votos-vota{
+.votos-vota {
     margin-top: 3vw;
     margin-bottom: 2vw;
     max-height: 30%;
 }
 
 
-h4.vota{
+h4.vota {
     font-size: 1vw;
 }
 
@@ -116,12 +116,12 @@ h4.vota{
     margin-bottom: 2vw;
 }
 
-.votos{
+.votos {
     margin-top: 3rem;
     font-size: 1.3rem;
 }
 
-.votos:hover{
+.votos:hover {
     font-size: 2.5vw;
 }
 
@@ -131,7 +131,7 @@ h4.vota{
     background-color: rgb(102, 212, 255);
 }
 
-.votos{
+.votos {
     transform: translateY(-50%);
 }
 
@@ -159,7 +159,7 @@ h4.vota{
     text-transform: uppercase;
 }
 
-.icon-menu::before{
+.icon-menu::before {
     color: gainsboro;
     font-size: 1.5rem;
 }
@@ -212,18 +212,19 @@ nav.circle ul li a:hover:after {
 
 
 
-.mapa h1, 
-.amenazas h1, 
+.mapa h1,
+.amenazas h1,
 .linea-tiempo h1 {
     text-align: center;
     text-transform: uppercase;
     margin: 5%;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     letter-spacing: 0.5vw;
     font-size: 1.5rem;
 }
 
-.mapa p, .amenazas p {
+.mapa p,
+.amenazas p {
     font-size: 1.2rem;
     text-align: center;
     margin-bottom: 5%;
@@ -237,20 +238,27 @@ nav.circle ul li a:hover:after {
 }
 
 .tiempo-img {
-    width: 90%;
+    width: 140%;
     display: block;
     margin: auto;
-    margin-top: 1vw;
     transition: 0.4s;
+    margin-bottom: 4vw;
 }
 
-.tiempo-img:hover{
+.scroll {
+    overflow: scroll;
+    overflow-y: hidden;
+
+}
+
+
+/* .tiempo-img:hover{
     transform: scale(1.1)
-}
+} */
 
-.flora-fauna{
+.flora-fauna {
     margin-top: 3vw;
-    background-color:  #66d4ff;
+    background-color: #66d4ff;
     color: white;
 }
 
@@ -269,7 +277,7 @@ nav.circle ul li a:hover:after {
     padding: 1%;
 }
 
-.imgamenazas .imgbox{
+.imgamenazas .imgbox {
     overflow: hidden;
     height: 45vh;
 }
@@ -294,7 +302,7 @@ nav.circle ul li a:hover:after {
     left: 10%;
     bottom: 3%;
     right: 10%;
-    background: rgba(0,0,0,.8);
+    background: rgba(0, 0, 0, .8);
     transform: scaleY(0);
     transition: transform .5s;
     max-height: 80%;
@@ -304,7 +312,7 @@ nav.circle ul li a:hover:after {
     transform: scaleY(1);
 }
 
-.imgamenazas .box .details .content{
+.imgamenazas .box .details .content {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -313,7 +321,7 @@ nav.circle ul li a:hover:after {
     color: #ffffff;
 }
 
-.imgamenazas .box .details .content h2{
+.imgamenazas .box .details .content h2 {
     left: 50%;
     padding: 0;
     padding-top: 0.1vw;
@@ -322,7 +330,7 @@ nav.circle ul li a:hover:after {
     max-height: 100%;
 }
 
-.imgamenazas .box .details .content p{
+.imgamenazas .box .details .content p {
     margin: 5px 0 0;
     padding: 0;
     font-size: 0.6rem;
@@ -430,7 +438,7 @@ nav.circle ul li a:hover:after {
     ;
 }
 
-.carousel-indicators{
+.carousel-indicators {
     margin: 0;
 }
 
@@ -442,40 +450,46 @@ nav.circle ul li a:hover:after {
     font-size: 3rem;
 }
 
-.parrafos{
+.parrafos {
     font-size: .75rem;
 }
 
 .marinas {
-    width:95%;
+    width: 95%;
     position: relative;
-        bottom: 6vh;
+    bottom: 6vh;
 }
 
 .originarios {
-    width:85%;
+    width: 85%;
     position: relative;
-        bottom: 15vh;
-        left: 45%;
+    bottom: 15vh;
+    left: 45%;
 }
 
 .indice-rojo::before {
     font-size: 1.5rem;
-    content: "•"; /* Insert content that looks like bullets */
-    color: red; /* Or a color you prefer */
+    content: "•";
+    /* Insert content that looks like bullets */
+    color: red;
+    /* Or a color you prefer */
 }
 
 .indice-naranja::before {
     font-size: 1.5rem;
-    content: "•"; /* Insert content that looks like bullets */
-    color: orange; /* Or a color you prefer */
+    content: "•";
+    /* Insert content that looks like bullets */
+    color: orange;
+    /* Or a color you prefer */
 }
 
 .indice-verde::before {
     font-size: 1.5rem;
-    content: "•"; /* Insert content that looks like bullets */
-    color: green; /* Or a color you prefer */
-  }
+    content: "•";
+    /* Insert content that looks like bullets */
+    color: green;
+    /* Or a color you prefer */
+}
 
 .guion {
     font-size: .7rem;
@@ -483,27 +497,35 @@ nav.circle ul li a:hover:after {
 }
 
 .guion::before {
-    font-size:.7rem;
-    content: "-"; /* Insert content that looks like bullets */
-    color: white; /* Or a color you prefer */
+    font-size: .7rem;
+    content: "-";
+    /* Insert content that looks like bullets */
+    color: white;
+    /* Or a color you prefer */
 }
 
 .guion-rojo::after {
     font-size: 1rem;
-    content: "•"; /* Insert content that looks like bullets */
-    color: red; /* Or a color you prefer */
+    content: "•";
+    /* Insert content that looks like bullets */
+    color: red;
+    /* Or a color you prefer */
 }
 
 .guion-naranja::after {
     font-size: 1rem;
-    content: "•"; /* Insert content that looks like bullets */
-    color: orange; /* Or a color you prefer */
+    content: "•";
+    /* Insert content that looks like bullets */
+    color: orange;
+    /* Or a color you prefer */
 }
 
 .guion-verde::after {
     font-size: 1rem;
-    content: "•"; /* Insert content that looks like bullets */
-    color: green; /* Or a color you prefer */
+    content: "•";
+    /* Insert content that looks like bullets */
+    color: green;
+    /* Or a color you prefer */
 }
 
 
@@ -570,7 +592,7 @@ nav.circle ul li a:hover:after {
 .nav-footer {
     background-color: rgb(253, 253, 253);
     height: 10vh;
-    
+
 }
 
 .imagen-footer {
@@ -582,25 +604,25 @@ nav.circle ul li a:hover:after {
     list-style: none;
 }
 
-.footer-links a:hover{
-    background-color:  rgb(91, 199, 241);
+.footer-links a:hover {
+    background-color: rgb(91, 199, 241);
     color: white;
     padding: 5px;
     border-radius: 25px;
 }
 
-.footer-links a{
+.footer-links a {
     text-decoration: none;
-    color: rgb(91, 199, 241);    
+    color: rgb(91, 199, 241);
     text-transform: uppercase;
     transition: 0.1s;
 }
 
 
-.vota-footer a{
+.vota-footer a {
     text-decoration: none;
     color: white;
-    background-color:  rgb(91, 199, 241);
+    background-color: rgb(91, 199, 241);
     border-radius: 25px;
     padding: 5px;
     font-size: .8rem;
@@ -608,15 +630,11 @@ nav.circle ul li a:hover:after {
     font-weight: bold;
 }
 
-.vota-footer a:hover{
-    color:  rgb(91, 199, 241);
+.vota-footer a:hover {
+    color: rgb(91, 199, 241);
     background-color: white;
 }
 
 .icon-menu {
     padding: 0px 70px;
 }
-
-
-
-
