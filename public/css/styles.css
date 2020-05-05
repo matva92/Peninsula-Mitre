@@ -56,6 +56,16 @@ body {
     left: 0px !important;
 }
 
+.redes:hover{
+    background-color: transparent;
+    justify-content: space-between;
+}
+
+.red:hover{
+    background-color: #F8F9FA;
+    color: black;
+}
+
 .carousel-foot {
     background-color: #66d4ff;
     color: white;
