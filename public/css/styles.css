@@ -435,13 +435,13 @@ nav.circle ul li a:hover:after {
 }
 
 .seccion-bajo li {
-    width: 1vw;
-    height: 1vw;
+    width: 8px;
+    height: 8px;
     border-radius: 100%;
     background-size: 0.5vw;
     position: relative;
-    left: 40vw;
-    /*horizontal position */
+    left: 45vw;
+    opacity: 100;
 }
 
 .seccion-bajo li.active {
@@ -454,14 +454,14 @@ nav.circle ul li a:hover:after {
 }
 
 #carouselExampleIndicators li {
-    width: 0.5vw;
-    height: 0.5vw;
+    width: 8px;
+    height: 8px;
     border-radius: 100%;
-    background-size: 0.5vw;
     position: relative;
-    left: 30px;
+    left: 44vw;
     background-color: white;
     opacity: 100;
+    margin: 3px;
 }
 
 #carouselExampleIndicators li.active {
