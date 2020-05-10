@@ -16,14 +16,13 @@ body {
 }
 
 .carousel-item.a {
-    height: 60vh;
+    height: 100%;
 }
 
 .carousel-item.a img {
-    top: -300px;
     left: 0;
-    height: 100%;
-    width: 100%;
+    height: 40vw;
+    width: auto;
 }
 
 
@@ -91,16 +90,32 @@ body {
     position: absolute;
     z-index: 9;
     margin-left: 3%;
-    max-height: 7.5vw;
+    height: 65px;
 }
 
 .votos-vota {
-    margin-top: 20%;
-    margin-bottom: 2vw;
-    max-height: 30%;
+    margin-top: 10vw;
     position: relative;
+    height: 10vw;
 }
 
+
+
+h3.votos {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 2vw;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: transparent;
+    transition: 0.9s;
+    margin-bottom: 2vw;
+}
 
 h4.vota {
     position: absolute;
@@ -108,60 +123,27 @@ h4.vota {
     margin-right: auto;
     left: 0;
     right: 0;
-    top: 120%;
+     margin-top: 4vw;
     text-align: center;
-    font-size: 1vw;
 }
 
 .vota a {
     border-radius: 10px;
-    padding: 2PX 6PX 1PX 6PX;
+    padding: 1PX 8PX 1PX 8PX;
     background-color: white;
     color:#2bb6ea;
     font-family:  MyriadProREGULAR;
-    font-size: 1.3rem;
+    font-size: 2vw;
+    font-weight: bolder;
     text-decoration: none;
     letter-spacing: 2px;
-    transition: 0.6s;
-    margin-bottom: 0px;
-    font-weight: bolder;
-}
-
-.votos {
-    margin-bottom: 4px;
-    text-transform: uppercase;
-    color: transparent;
-    transition: 0.9s;
-    letter-spacing: 2px;
-    font-family: 'Lato', sans-serif;
-}
-
-
-.vota a {
-
-    margin: 5vw;
-    margin-bottom: 4px;
     transition: 0.5s;
-    margin-bottom: 2vw;
-}
-
-.votos {
-    margin-top: 3rem;
-    font-size: 1.3rem;
-}
-
-.votos:hover {
-    font-size: 2.5vw;
 }
 
 
 .vota a:hover {
     color: white;
     background-color:#2bb6ea;
-}
-
-.votos {
-    transform: translateY(-50%);
 }
 
 
