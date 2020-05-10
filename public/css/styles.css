@@ -440,7 +440,7 @@ nav.circle ul li a:hover:after {
     height: 8px;
     border-radius: 100%;
     position: relative;
-    left: 44vw;
+    left: 46vw;
     background-color: white;
     opacity: 100;
     margin: 3px;
@@ -453,6 +453,8 @@ nav.circle ul li a:hover:after {
 
 .carousel-indicators {
     margin: 0;
+    margin-right: 1vw;
+    width: 96vw;
 }
 
 
