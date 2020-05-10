@@ -23,10 +23,7 @@ height: 40vw;
     max-height: 40vw;
 }
 
-.carousel-item.a {
-    transform: translatex(-5%) translatey(-2%);
-    width: 105% !important;
-}
+
 
 
 .carousel-item.a video {
