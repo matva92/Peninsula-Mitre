@@ -15,21 +15,30 @@ body {
     scroll-behavior: smooth;
 }
 
-.carousel-item.a {
-    height: 100%;
+.row .carrousel{
+height: 40vw;
 }
 
-.carousel-item.a img {
-    left: 0;
-    height: 40vw;
-    width: auto;
+.carousel-item.a {
+    max-height: 40vw;
 }
+
+.carousel-item.a {
+    transform: translatex(-5%) translatey(-2%);
+    width: 105% !important;
+}
+
+
+.carousel-item.a video {
+    width: 100%;
+}
+
 
 
 .titulo {
     position: absolute;
     z-index: 9;
-    height: 100px;
+    height: 5vw;
     width: 500px;
     left: 50%;
     margin-left: -250px;
@@ -42,6 +51,7 @@ body {
 .titulo h1 {
     font-size: 1.6rem;
     font-weight: 800;
+    margin-bottom: 0;
 }
 
 .titulo span {
@@ -81,7 +91,7 @@ body {
     margin-top: 1%;
     margin-bottom: 1%;
     margin-left: 0.8%;
-    font-size: 0.65rem;
+    font-size: 0.75rem;
     font-family: MyriadProREGULAR;
     font-style: italic;
 }
@@ -89,14 +99,14 @@ body {
 .logo-pen {
     position: absolute;
     z-index: 9;
-    margin-left: 3%;
+    margin-left: 2%;
     height: 65px;
 }
 
 .votos-vota {
-    margin-top: 10vw;
+    margin-top: 3vw;
     position: relative;
-    height: 10vw;
+    height: 15vw;
 }
 
 
@@ -114,7 +124,7 @@ h3.votos {
     text-transform: uppercase;
     color: transparent;
     transition: 0.9s;
-    margin-bottom: 2vw;
+    bottom: 3vw;
 }
 
 h4.vota {
@@ -123,8 +133,9 @@ h4.vota {
     margin-right: auto;
     left: 0;
     right: 0;
-     margin-top: 4vw;
+    bottom: 0;
     text-align: center;
+    margin:0;
 }
 
 .vota a {

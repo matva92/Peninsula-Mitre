@@ -71,9 +71,12 @@
 						<a class="dropdown-item" href="#galeria">GALERÍA</a>
 
 						<div class="dropdown-item redes">
-							<a class="icon-facebook d-inline-flex red p-1" target="_blank" href="https://www.facebook.com/gauchosdelmar"></a>
-							<a class="icon-youtube d-inline-flex red p-1" target="_blank" href="https://www.youtube.com/channel/UCsSE_TqCe3wAZVVhOIldJ3g"></a>
-							<a class="icon-instagram d-inline-flex red p-1" target="_blank" href="https://www.instagram.com/gauchosdelmar/"></a>
+							<a class="icon-facebook d-inline-flex red p-1" target="_blank"
+								href="https://www.facebook.com/gauchosdelmar"></a>
+							<a class="icon-youtube d-inline-flex red p-1" target="_blank"
+								href="https://www.youtube.com/channel/UCsSE_TqCe3wAZVVhOIldJ3g"></a>
+							<a class="icon-instagram d-inline-flex red p-1" target="_blank"
+								href="https://www.instagram.com/gauchosdelmar/"></a>
 						</div>
 					</div>
 				</div>
@@ -86,20 +89,20 @@
 	</div>
 
 
-	<div class="row">
+	<div class="row carrousel">
 		<div class="col-sm-12">
 			<div class="titulo">
 				<div class="d-none d-md-block dashed">
 					<span> &nbsp&nbsp Área Natural Protegida &nbsp&nbsp </span>
 				</div>
 				<span class="d-md-none"> Área Natural Protegida </span>
-				<h1>PENÍNSULA MITRE</h1>
+				<h1 class="titulo-mitre">PENÍNSULA MITRE</h1>
 				<div class="votos-vota">
 					<h3 class="votos" id="votos">Somos</h3>
 					<h4 class="vota">
 						<a href="https://www.change.org/p/conservemos-pen%C3%ADnsula-mitre-que-sea-%C3%A1rea-natural-
 								protegida-gobiernotdf-monica-urquiza-federicobilota-legismmartinez-pablovillegas19" target="_blank">
-							 VOTÁ
+							VOTÁ
 						</a>
 					</h4>
 				</div>
@@ -107,8 +110,8 @@
 
 			<!-- Carousel -->
 
-			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000"
-				data-pause="false">
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false"
+				data-pause="true">
 				<ol class="carousel-indicators">
 					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -117,10 +120,13 @@
 
 				<div class="carousel-inner">
 					<div class="carousel-item a active">
-						<img class="d-block w-100" src="public/images/carouselheader.png" alt="First slide">
+						<video id="video" src="public/images/1 header web.mp4" autoplay loop muted alt="First slide"></video>
 					</div>
 					<div class="carousel-item a">
-						<img class="d-block w-100" src="public/images/carouselheader2.png" alt="Second slide">
+						<img class="d-block w-100" src="public/images/carouselheader.png" alt="Second slide">
+					</div>
+					<div class="carousel-item a">
+						<img class="d-block w-100" src="public/images/carouselheader2.png" alt="Third slide">
 					</div>
 				</div>
 			</div>
@@ -561,8 +567,8 @@
 
 				</div>
 			</div>
-			<video id="video" src="public/images/videoplayback.mp4" width="80%" height="400px" autoplay loop muted
-				style="margin: auto; margin-top: 30px;"></video>
+			<!-- <video id="video" src="public/images/videoplayback.mp4" width="80%" height="400px" autoplay loop muted
+				style="margin: auto; margin-top: 30px;"></video> -->
 		</div>
 	</div>
 
@@ -633,7 +639,9 @@
 	<script src="https://code.jquery.com/jquery-3.5.0.js"
 		integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
 	<script src="votos.js"></script>
-	<script>document.getElementById('video').play()</script>
+	<script>
+		document.getElementById('video').play()
+	</script>
 
 </body>
 
