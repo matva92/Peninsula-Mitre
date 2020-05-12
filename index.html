@@ -14,7 +14,7 @@
 	<!-- <link rel="stylesheet" href="mati.css"> -->
 	<title>Península Mitre</title>
 	<link rel="icon" type="image/png" href="public/images/favico.png">
-	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -22,7 +22,9 @@
 	<div style="position: relative;">
 		<img class="logo-pen" src="public/images/favico.png" alt="">
 	</div>
-	<!-- Nav -->
+
+
+	<!-- Nav Items-->
 	<div style="position: relative;">
 		<nav class="nav-links circle">
 			<ul class="list-unstyled list-inline text-center d-md-flex align-items-center">
@@ -80,15 +82,11 @@
 						</div>
 					</div>
 				</div>
-
-
-
-
 			</ul>
 		</nav>
 	</div>
 
-
+	<!-- Carrousel Superior -->
 	<div class="row carrousel">
 		<div class="col-sm-12">
 			<div class="titulo">
@@ -133,7 +131,7 @@
 		</div>
 	</div>
 
-	<!-- Footer Carousel -->
+	<!-- Footer del Carousel superior-->
 
 	<div class="container-fluid">
 		<div class="row">
@@ -146,22 +144,36 @@
 		</div>
 	</div>
 
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-sm-12 mapa">
+
+	<!-- SECCION MAPA DEL PROYECTO DE LEY -->
+
+	<div class="container-fluid zigzag">
+
+		<div class="row text-center">
+			<div class="mapa">
 				<h1 id="mapa">Mapa Del Proyecto De Ley</h1>
-				<p>
-					Este es el mapa establecido en el proyecto de ley que crea el Área Natural Protegida. Muestra la
-					zonificación realizada por los expertos que intervinieron en el proceso y comprende, en distintas
-					categorías de protección, 300.000 hectáreas de tierra y 200.000 hectáreas, inclusive las aguas
-					circundantes a Isla de los Estados.
-				</p>
+				<div class="row d-flex justify-content-center">
+					<p class="col-9 text-center">
+						Este es el mapa establecido en el proyecto de ley que crea el Área Natural Protegida. Muestra la
+						zonificación realizada por los expertos que intervinieron en el proceso y comprende, en distintas
+						categorías de protección, 300.000 hectáreas de tierra y 200.000 hectáreas, inclusive las aguas
+						circundantes a Isla de los Estados.
+					</p>
+				</div>
 			</div>
 		</div>
-		<img src="public/images/mapa.png" class="mapa-img" alt="">
-	</div>
 
-	<div class="container-fluid">
+		<div class="row mx-4">
+			<div class="col-12 px-4">
+				<div class="bg-white text-center row d-flex justify-content-center m-4">
+					<img src="public/images/mapa.png" class="text-center col-12 m-4" alt="">
+				</div>
+			</div>
+		</div>
+		
+		
+		<!-- Titulo linea de tiempo -->
+		
 		<div class="row">
 			<div class="col-sm-12 linea-tiempo">
 
@@ -170,12 +182,24 @@
 
 			</div>
 		</div>
+
+		<!-- Imagen Linea de tiempo -->
+
 		<div class="scroll">
 			<img src="public/images/linea.png" id="linea" class="tiempo-img" alt="">
 		</div>
+		
+	</div>
+
+
+	<!-- SECCION DE COLUMNAS ESPECIES MARINAS -->
+
+	<div class="container-fluid">
 		<div class="row flora-fauna justify-content-center">
+
+			<!-- Columna 1 -->
 			<div class="col-12 col-md-4">
-				<h1 id="linea-tiempo text-left">Fauna</h1>
+				<h2 class="h1" id="linea-tiempo text-left">Fauna</h1>
 				<div class="row ml-4">
 					<div class="col-4 h4">ESPECIES MARINAS</div>
 					<img class="col-8 m-0 marinas" src="public/images/delfin.png"
@@ -183,7 +207,7 @@
 				</div>
 				<div class="row ml-4">
 					<!-- Parrafos -->
-					<div class="col-8 parrafos">
+					<div class="col-8 parrafos ">
 						<p>Las costas y el mar que rodea la Península Mitre reúne las condiciones ideales para albergar
 							una gran variedad de fauna marina convirtiéndose en un verdadero santuario natural para
 							estas especies. Es, dentro de la costa argentina, uno de los 5 puntos con mayor diversidad
@@ -290,11 +314,11 @@
 								Chungungo
 							</li>
 						</ul>
-
 					</div>
-
 				</div>
 			</div>
+
+			<!-- Columna 2 -->
 			<div class="col-12 col-md-4 border-left border-white">
 				<h2 class="h1 mb-3" id="linea-tiempo">Arqueología</h2>
 				<div class="col-10 h4 justify-content-start">HAUSH</div>
@@ -315,6 +339,8 @@
 				</div>
 
 			</div>
+
+			<!-- Columna 3 -->
 			<div class="col-12 col-md-4 border-left border-white">
 				<h2 class="h1 mb-3" id="linea-tiempo">Flora</h2>
 				<div class="col-10 h4 justify-content-start ml-4">BOSQUES</div>
@@ -347,29 +373,32 @@
 						aumentando así el efecto invernadero.
 					</p>
 				</div>
-
 			</div>
+
 		</div>
 	</div>
 
 
 
-
+	<!-- SECCION AMENAZAS -->
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-sm-12 amenazas">
+			<div class="amenazas">
 				<h1 id="amenazas">Amenazas</h1>
-				<p>
-					Si bien su ubicación ha logrado mantener a la península mayormente protegida, no es suficiente. La
-					falta de un marco regulatorio implica que muchas de sus especies de flora y fauna se encuentren
-					amenazadas. El impacto del hombre es evidente; la contaminación, la presencia de especies exóticas y
-					la deforestación, entre otras han llegado a la Península. Todavía queda mucho por descubrir y
-					estudiar en profundidad para entender el estado de situación y vulnerabilidad de las especies que
-					habitan el lugar y de los restos arqueológicos y de naufragios que componen la historia de la
-					provincia.
-					La ley que crea el Área Natural Protegida Península Mitre podría resguardar a la Península para
-					siempre.
-				</p>
+				<div class="row justify-content-center">
+					<p class="col-7 px-1">
+						Si bien su ubicación ha logrado mantener a la península mayormente protegida, no es suficiente. La
+						falta de un marco regulatorio implica que muchas de sus especies de flora y fauna se encuentren
+						amenazadas. El impacto del hombre es evidente; la contaminación, la presencia de especies exóticas y
+						la deforestación, entre otras han llegado a la Península. Todavía queda mucho por descubrir y
+						estudiar en profundidad para entender el estado de situación y vulnerabilidad de las especies que
+						habitan el lugar y de los restos arqueológicos y de naufragios que componen la historia de la
+						provincia.
+						<br>
+						<b>La ley que crea el Área Natural Protegida Península Mitre podría resguardar a la Península para siempre. </b>
+					</p>
+					
+				</div>
 			</div>
 			<div class="col-sm-12">
 				<div class="imgamenazas">
@@ -498,6 +527,8 @@
 		</div>
 	</div>
 
+	<!-- SECCION POR QUE CONSERVAR LA PENINSULA -->
+
 	<div class="container-fluid seccion-medio">
 		<div class="row">
 			<div class="col-sm-12 col-md-6 col-lg-6 col-text">
@@ -521,7 +552,7 @@
 				</div>
 
 				<div>
-					<h3 class="seccion-medio-titulo-ul">La creación de un área natural protegida en la península:</h3>
+					<h3 class="seccion-medio-titulo-ul"><b>La creación de un área natural protegida en la península:</b></h3>
 					<ul class="seccion-medio-ul">
 						<li>Nos asegura la preservación y conservación de un lugar único para
 							siempre.
@@ -542,7 +573,7 @@
 		</div>
 	</div>
 
-
+	<!-- CARROUSSEL BAJO -->
 	<div class="container-fluid seccion-bajo">
 		<div class="row">
 			<div class="col-sm-12" id="galeria">
@@ -592,7 +623,7 @@
 		</div>
 	</div>
 
-
+	<!-- FOOTER -->
 	<div class="container-fluid">
 		<div class="row align-items-center justify-content-center">
 

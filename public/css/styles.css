@@ -155,6 +155,12 @@ h4.vota {
 }
 
 
+.zigzag {
+    background-image: url('../images/zigzag.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* NAVIGATION */
 
 .nav-links {
@@ -234,6 +240,7 @@ nav.circle ul li a:hover:after {
 .mapa h1,
 .amenazas h1,
 .linea-tiempo h1 {
+    font-family: 'Raleway', sans-serif;
     text-align: center;
     text-transform: uppercase;
     margin: 5%;
@@ -242,18 +249,18 @@ nav.circle ul li a:hover:after {
     font-size: 1.5rem;
 }
 
-.mapa p,
-.amenazas p {
-    font-size: 1.2rem;
+.mapa p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
     text-align: center;
     margin-bottom: 5%;
     padding: 0 10%;
 }
 
-.mapa-img {
-    width: 90%;
-    display: block;
-    margin: auto;
+.amenazas p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    text-align: center;
 }
 
 .tiempo-img {
@@ -366,6 +373,8 @@ nav.circle ul li a:hover:after {
     font-size: 1.2rem;
     margin-top: 3vw;
     text-align: justify;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
 }
 
 
@@ -377,17 +386,22 @@ nav.circle ul li a:hover:after {
 .seccion-medio-titulo {
     letter-spacing: 0.5vw;
     font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
 }
 
 .seccion-medio-titulo-ul {
     margin-top: 4vw;
     margin-bottom: 3vw;
     font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
+    ont-weight: bold;
 }
 
 .seccion-medio-ul {
     list-style-type: none;
     padding-left: 3vw;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
 }
 
 
@@ -473,8 +487,16 @@ nav.circle ul li a:hover:after {
     font-size: 3rem;
 }
 
+/* .titulo {
+    font-family: 'Raleway', sans-serif;
+}
+
+.subtitulo {
+    font-family: 'Raleway', sans-serif;
+} */
 .parrafos {
-    font-size: .75rem;
+    /* font-size: .75rem; */
+    font-family: 'Lato', sans-serif;
 }
 
 .marinas {
