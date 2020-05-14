@@ -23,7 +23,10 @@ height: 40vw;
     max-height: 40vw;
 }
 
-
+.img-arcoiris {
+    transform: translateX(-3px) translateY(-1px);
+    width: 115% !important;
+}
 
 
 .carousel-item.a video {
@@ -277,10 +280,6 @@ nav.circle ul li a:hover:after {
 
 }
 
-
-/* .tiempo-img:hover{
-    transform: scale(1.1)
-} */
 
 .flora-fauna {
     margin-top: 3vw;
