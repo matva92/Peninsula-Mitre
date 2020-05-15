@@ -84,6 +84,10 @@ height: 44vw;
     left: 0px !important;
 }
 
+.list-inline-item a{
+    font-family: 'Oswald', sans-serif;
+    font-size: .5rem !important;
+}
 .redes:hover{
     background-color: transparent;
     justify-content: space-between;
@@ -406,7 +410,7 @@ nav.circle ul li a:hover:after {
     margin-bottom: 3vw;
     font-size: 1.2rem;
     font-family: 'Lato', sans-serif;
-    ont-weight: bold;
+    font-weight: bold;
 }
 
 .seccion-medio-ul {
