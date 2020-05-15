@@ -502,24 +502,32 @@ nav.circle ul li a:hover:after {
 
 /* Flora Fauna y Arqueologia */
 
-.titulo-fauna {
-    font-size: 3rem;
+
+.titulo-especies {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: .5rem;
+    margin-top: 1rem;
 }
 
-/* .titulo {
+.subtitulo-especies {
     font-family: 'Raleway', sans-serif;
-}
+    font-weight: 500;
+    letter-spacing: .4rem;
+} 
 
-.subtitulo {
-    font-family: 'Raleway', sans-serif;
-} */
-.parrafos {
-    /* font-size: .75rem; */
+.reservorio {
     font-family: 'Lato', sans-serif;
+    font-weight: medium;
+    font-size: 1rem;
+    letter-spacing: .2rem;
 }
-
+.parrafos p{
+    font-size: .75rem;
+    font-family: 'Lato', sans-serif
+}
 .marinas {
-    width: 95%;
     position: relative;
     bottom: 6vh;
 }
@@ -531,8 +539,13 @@ nav.circle ul li a:hover:after {
     left: 45%;
 }
 
+.indice-especies {
+    font-size:.6rem;
+    line-height: .75;
+}
+
 .indice-rojo::before {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     content: "•";
     /* Insert content that looks like bullets */
     color: red;
@@ -540,7 +553,7 @@ nav.circle ul li a:hover:after {
 }
 
 .indice-naranja::before {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     content: "•";
     /* Insert content that looks like bullets */
     color: orange;
@@ -548,7 +561,7 @@ nav.circle ul li a:hover:after {
 }
 
 .indice-verde::before {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     content: "•";
     /* Insert content that looks like bullets */
     color: green;
@@ -556,8 +569,9 @@ nav.circle ul li a:hover:after {
 }
 
 .guion {
-    font-size: .7rem;
+    font-size: .55rem;
     margin: 0 auto;
+    line-height: 1.5;
 }
 
 .guion::before {
@@ -569,27 +583,30 @@ nav.circle ul li a:hover:after {
 }
 
 .guion-rojo::after {
-    font-size: 1rem;
+    font-size: .85rem;
     content: "•";
     /* Insert content that looks like bullets */
     color: red;
     /* Or a color you prefer */
+    line-height: 1;
 }
 
 .guion-naranja::after {
-    font-size: 1rem;
+    font-size: .85rem;
     content: "•";
     /* Insert content that looks like bullets */
     color: orange;
     /* Or a color you prefer */
+    line-height: 1;
 }
 
 .guion-verde::after {
-    font-size: 1rem;
+    font-size: .85rem;
     content: "•";
     /* Insert content that looks like bullets */
     color: green;
     /* Or a color you prefer */
+    line-height: 1;
 }
 
 
