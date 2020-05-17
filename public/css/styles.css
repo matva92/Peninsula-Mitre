@@ -179,6 +179,7 @@ h4.vota {
     background-image: url('../images/zigzag.png');
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 20px;
 }
 
 /* NAVIGATION */
@@ -284,22 +285,17 @@ nav.circle ul li a:hover:after {
 }
 
 .tiempo-img {
-    width: 140%;
     display: block;
     margin: auto;
     transition: 0.4s;
-    margin-bottom: 4vw;
+    margin-bottom: 5vw;
+    width: 100%;
 }
 
-.scroll {
-    overflow: scroll;
-    overflow-y: hidden;
-
-}
 
 
 .flora-fauna {
-    margin-top: 3vw;
+    /* margin-top: 3vw; */
     background-color: #66d4ff;
     color: white;
 }
@@ -325,7 +321,7 @@ nav.circle ul li a:hover:after {
 }
 
 .imgamenazas .imgbox img {
-    opacity: 70%;
+    opacity: 90%;
     transition: 0.5s;
     height: 100%;
     width: 100%;
@@ -344,7 +340,7 @@ nav.circle ul li a:hover:after {
     left: 10%;
     bottom: 3%;
     right: 10%;
-    background: rgba(0, 0, 0, .8);
+    background:rgb(255, 255, 255);
     transform: scaleY(0);
     transition: transform .5s;
     max-height: 80%;
@@ -360,7 +356,7 @@ nav.circle ul li a:hover:after {
     transform: translateY(-50%);
     text-align: center;
     padding: 15px;
-    color: #ffffff;
+    color: black;
 }
 
 .imgamenazas .box .details .content h2 {
@@ -368,9 +364,11 @@ nav.circle ul li a:hover:after {
     padding: 0;
     padding-top: 0.1vw;
     font-size: 1.1rem;
-    color: #66d4ff;
+    color: black;
     max-height: 100%;
     font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+
 }
 
 .imgamenazas .box .details .content p {
@@ -419,9 +417,9 @@ nav.circle ul li a:hover:after {
 
 .seccion-medio-ul {
     list-style-type: none;
-    padding-left: 3vw;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
+    padding-left: 0px;
 }
 
 
@@ -509,6 +507,15 @@ nav.circle ul li a:hover:after {
     margin: 0vw 0vw 0vw 5px;
     padding-bottom: 30px;
     left: 50%;
+    transform: translateX(-55%);
+}
+
+.carousel-indicators.b {
+    width: 95%;
+    height: 3vw;
+    margin: 0vw 0vw 0vw 5px;
+    padding-bottom: 30px;
+    left: 48%;
     transform: translateX(-55%);
 }
 
