@@ -270,6 +270,7 @@ nav.circle ul li a:hover:after {
     font-size: 1.5rem;
 }
 
+
 .mapa p {
     font-family: 'Lato', sans-serif;
     font-size: 1rem;
@@ -282,6 +283,10 @@ nav.circle ul li a:hover:after {
     font-family: 'Lato', sans-serif;
     font-size: 1rem;
     text-align: center;
+}
+
+.amenazas-texto{
+    margin-bottom: 3vw;
 }
 
 .tiempo-img {
@@ -408,8 +413,8 @@ nav.circle ul li a:hover:after {
 }
 
 .seccion-medio-titulo-ul {
-    margin-top: 4vw;
-    margin-bottom: 3vh;
+    margin-top: 2vw;
+    margin-bottom: 6vh;
     font-size: .9rem;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
@@ -419,7 +424,8 @@ nav.circle ul li a:hover:after {
     list-style-type: none;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
-    padding-left: 0px;
+    padding-left: 1vw;
+    width: 80%;
 }
 
 
@@ -721,12 +727,17 @@ nav.circle ul li a:hover:after {
     text-decoration: none;
     color: white;
     background-color: rgb(91, 199, 241);
-    border-radius: 25px;
-    padding: 5px;
+    border-radius: 10px;
+    padding: 1px 4px 1px 4px;
     font-size: .8rem;
     transition: 0.5s;
     font-weight: bold;
+    position: relative;
+    right: 1.1vw;
+    bottom: 0.5vw;
 }
+
+
 
 .vota-footer a:hover {
     color: rgb(91, 199, 241);
