@@ -289,6 +289,7 @@ nav.circle ul li a:hover:after {
     font-family: 'Lato', sans-serif;
     font-size: 1rem;
     text-align: center;
+    margin-bottom: 5%;
     padding: 0 10%;
 }
 
@@ -370,7 +371,7 @@ nav.circle ul li a:hover:after {
 
 .imgamenazas .box .details .content {
     position: absolute;
-    top: 30%;
+    top: 40%;
     transform: translateY(-50%);
     text-align: center;
     padding: 15px;
@@ -381,7 +382,7 @@ nav.circle ul li a:hover:after {
     left: 50%;
     padding: 0;
     padding-top: 0.1vw;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: black;
     max-height: 100%;
     font-family: 'Lato', sans-serif;
@@ -400,7 +401,7 @@ nav.circle ul li a:hover:after {
 
 .seccion-medio {
     margin: 2%;
-    margin-top: 5vh;
+    margin-top: 15vh;
 }
 
 .seccion-medio p {
@@ -428,6 +429,7 @@ nav.circle ul li a:hover:after {
 .seccion-medio-titulo-ul {
     margin-top: 2vw;
     margin-bottom: 6vh;
+    padding-left: 15px;
     font-size: .9rem;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
@@ -437,7 +439,7 @@ nav.circle ul li a:hover:after {
     list-style-type: none;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
-    padding-left: 1vw;
+    padding-left: 1.5vw;
     width: 80%;
 }
 
@@ -463,8 +465,7 @@ nav.circle ul li a:hover:after {
 
 .seccion-medio-imagen img {
     width: 80%;
-    min-height: 100%;
-    margin-left: 12%;
+    margin-left: 7%;
 }
 
 .seccion-bajo {
@@ -741,7 +742,7 @@ nav.circle ul li a:hover:after {
     color: white;
     background-color: rgb(91, 199, 241);
     border-radius: 10px;
-    padding: 1px 4px 1px 4px;
+    padding: 1px 2px 1px 2px;
     font-size: .8rem;
     transition: 0.5s;
     font-weight: bold;
