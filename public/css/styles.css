@@ -84,6 +84,16 @@ height: 44vw;
     left: 0px !important;
 }
 
+.dropdown-item {
+    font-size: .3rem !important;
+    line-height: .3;
+}
+
+.redes a{
+    font-size: .3rem !important;
+    line-height: .3;
+}
+
 .list-inline-item a{
     font-family: 'Oswald', sans-serif;
     font-size: .9rem !important;
