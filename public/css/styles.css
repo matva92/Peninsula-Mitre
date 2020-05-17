@@ -714,9 +714,8 @@ nav.circle ul li a:hover:after {
     color: rgb(91, 199, 241);
     text-transform: uppercase;
     transition: 0.1s;
-    font-size: .8rem!important;
+    font-size: .6rem!important;
 }
-
 
 .vota-footer a {
     text-decoration: none;
