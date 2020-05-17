@@ -86,7 +86,7 @@ height: 44vw;
 
 .list-inline-item a{
     font-family: 'Oswald', sans-serif;
-    font-size: .7rem !important;
+    font-size: .9rem !important;
 }
 .redes:hover{
     background-color: transparent;
@@ -356,7 +356,7 @@ nav.circle ul li a:hover:after {
 
 .imgamenazas .box .details .content {
     position: absolute;
-    top: 50%;
+    top: 30%;
     transform: translateY(-50%);
     text-align: center;
     padding: 15px;
@@ -367,29 +367,34 @@ nav.circle ul li a:hover:after {
     left: 50%;
     padding: 0;
     padding-top: 0.1vw;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: #66d4ff;
     max-height: 100%;
+    font-family: 'Lato', sans-serif;
 }
 
 .imgamenazas .box .details .content p {
     margin: 5px 0 0;
     padding: 0;
-    font-size: 0.6rem;
+    font-family: 'Lato', sans-serif;
+    font-size: .8rem;
     max-height: 100%;
 }
 
 
 .seccion-medio {
     margin: 2%;
-    margin-top: 5%;
+    margin-top: 5vh;
 }
 
 .seccion-medio p {
-    font-size: 1.2rem;
-    margin-top: 3vw;
+    font-size: .9rem;
     text-align: justify;
     font-family: 'Lato', sans-serif;
+}
+
+.parrafo1 {
+    font-weight: bold;
 }
 
 
@@ -400,14 +405,14 @@ nav.circle ul li a:hover:after {
 
 .seccion-medio-titulo {
     letter-spacing: 0.5vw;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: 'Raleway', sans-serif;
 }
 
 .seccion-medio-titulo-ul {
     margin-top: 4vw;
-    margin-bottom: 3vw;
-    font-size: 1.2rem;
+    margin-bottom: 3vh;
+    font-size: .9rem;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
 }
@@ -433,8 +438,10 @@ nav.circle ul li a:hover:after {
 
 .seccion-medio-ul li {
     margin-bottom: 3%;
-    font-size: 1rem;
+    font-size: .9rem;
     text-align: justify;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
 }
 
 .seccion-medio-imagen img {
@@ -442,7 +449,6 @@ nav.circle ul li a:hover:after {
     min-height: 100%;
     margin-left: 12%;
 }
-
 
 .seccion-bajo {
     margin-top: 5%;
@@ -685,12 +691,8 @@ nav.circle ul li a:hover:after {
 }
 
 .imagen-footer {
+    width: 6rem;
     mix-blend-mode: multiply;
-}
-
-
-.footer-links {
-    list-style: none;
 }
 
 .footer-links a:hover {
@@ -705,6 +707,7 @@ nav.circle ul li a:hover:after {
     color: rgb(91, 199, 241);
     text-transform: uppercase;
     transition: 0.1s;
+    font-size: .8rem!important;
 }
 
 
