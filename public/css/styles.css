@@ -90,13 +90,13 @@ height: 44vw;
 }
 
 .redes a{
-    font-size: .3rem !important;
+    font-size: .2vw !important;
     line-height: .3;
 }
 
 .list-inline-item a{
     font-family: 'Oswald', sans-serif;
-    font-size: .9rem !important;
+    font-size: 1vw !important;
 }
 .redes:hover{
     background-color: transparent;
@@ -208,7 +208,7 @@ h4.vota {
 .nav-links a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
     letter-spacing: 1px;
     display: block;
     text-decoration: none;
@@ -226,7 +226,7 @@ h4.vota {
 }
 
 .nav-links li {
-    padding: 3px;
+    padding: .3vw;
 }
 
 nav ul li a,
@@ -464,10 +464,7 @@ nav.circle ul li a:hover:after {
 }
 
 .seccion-medio-imagen  {
-    padding: 0px;
-    max-width: 45%;
-    height: 50vw;
-    right: 2vw;
+    padding-right: 7vw;
 }
 
 .seccion-bajo {
@@ -657,6 +654,15 @@ nav.circle ul li a:hover:after {
         padding-bottom: 0%;
     }
 }
+
+@media screen and (min-width: 767px) {
+    .seccion-medio-imagen {
+        padding: 0px;
+        max-width: 45%;
+        height: 50vw;
+    }
+}
+
 
 
 /* Keyframes */
