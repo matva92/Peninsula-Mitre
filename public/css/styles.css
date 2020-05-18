@@ -463,14 +463,15 @@ nav.circle ul li a:hover:after {
     font-weight: bold;
 }
 
-.seccion-medio-imagen img {
-    width: 80%;
-    margin-left: 7%;
+.seccion-medio-imagen  {
+    padding: 0px;
+    max-width: 45%;
+    height: 50vw;
+    right: 2vw;
 }
 
 .seccion-bajo {
     margin-top: 5%;
-
 }
 
 .seccion-bajo .col-sm-12 {
