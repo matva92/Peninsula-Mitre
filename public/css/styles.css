@@ -127,7 +127,8 @@ height: 44vw;
     position: absolute;
     z-index: 9;
     margin-left: 2%;
-    height: 65px;
+    height: 7.5vw;
+    min-height: 40px;
 }
 
 .votos-vota {
@@ -152,6 +153,7 @@ h3.votos {
     color: transparent;
     transition: 0.9s;
     bottom: 3vw;
+    font-weight: 700;
 }
 
 h4.vota {
@@ -166,14 +168,15 @@ h4.vota {
 }
 
 .vota a {
-    border-radius: 10px;
+    border-radius: 1vw;
     padding: 1PX 8PX 1PX 8PX;
     background-color: white;
     color:#2bb6ea;
-    font-family:  MyriadProREGULAR;
-    font-size: 2vw;
-    font-weight: bolder;
+    font-family:  'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 1.5vw;
     text-decoration: none;
+    padding: 0.5vw 0.6vw;
     letter-spacing: 2px;
     transition: 0.5s;
 }
@@ -197,7 +200,7 @@ h4.vota {
 
 .nav-links {
     position: absolute;
-    z-index: 10;
+    z-index: 1;
     right: 1%;
     margin-top: 1%;
     /* background-color: rgba(128, 128, 128, 0.7); */
@@ -236,7 +239,8 @@ nav ul li a:before {
 }
 
 nav ul li a:hover {
-    color: #ffffff;
+    color: #2bb6ea;
+    
 }
 
 
@@ -293,6 +297,21 @@ nav.circle ul li a:hover:after {
     padding: 0 10%;
 }
 
+.mapa-img {
+    position: relative;
+    height: 45vw;
+}
+
+.mapa-img img {
+    position: absolute;
+    margin: 0 !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 100%;
+    padding: 1.5vw;
+}
+
 .amenazas p {
     font-family: 'Lato', sans-serif;
     font-size: 1rem;
@@ -328,7 +347,7 @@ nav.circle ul li a:hover:after {
 }
 
 .imgamenazas .box {
-    opacity: 70%;
+    /* opacity: 70%; */
     transition: 0.5s;
     position: relative;
     padding: 1%;
@@ -340,7 +359,7 @@ nav.circle ul li a:hover:after {
 }
 
 .imgamenazas .imgbox img {
-    opacity: 90%;
+    /* opacity: 90%; */
     transition: 0.5s;
     height: 100%;
     width: 100%;
@@ -393,7 +412,7 @@ nav.circle ul li a:hover:after {
     margin: 5px 0 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
-    font-size: .6rem;
+    font-size: .8rem;
     max-height: 100%;
 }
 
@@ -449,7 +468,7 @@ nav.circle ul li a:hover:after {
     height: 10px;
     width: 10px;
     background-size: 10px;
-    background-image: url("../images/li.png");
+    background-image: url("../images/bullets.png");
     background-repeat: no-repeat;
     margin-right: 5px;
 }
@@ -497,10 +516,6 @@ nav.circle ul li a:hover:after {
 .carousel-item.b img {
     height: 41vw;
 }
-
-
-
-
 
 #carouselExampleIndicators li {
     width: 8px;
@@ -675,7 +690,6 @@ nav.circle ul li a:hover:after {
         margin: auto;
         height: 1px;
         z-index: -1;
-        background:#2bb6ea;
         border-radius: 100%;
     }
 
@@ -740,7 +754,7 @@ nav.circle ul li a:hover:after {
     color: rgb(91, 199, 241);
     text-transform: uppercase;
     transition: 0.1s;
-    font-size: .6rem!important;
+    font-size: 0.6rem!important;
 }
 
 .vota-footer a {

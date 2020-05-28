@@ -1,4 +1,7 @@
 function votos() {
+
+    console.log("hola")
+
     var servidor =
         'https://cors-anywhere.herokuapp.com/' +
         'https://www.change.org/p/conservemos-pen%C3%ADnsula-mitre-que-sea-%C3%A1rea-natural-protegida-gobiernotdf-monica-urquiza-federicobilota-legismmartinez-pablovillegas19';
@@ -17,4 +20,3 @@ function votos() {
         .catch(console.error)
 }
 votos()
-// window.setInterval(votos, 60000)
