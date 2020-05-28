@@ -1,6 +1,5 @@
 function votos() {
 
-    console.log("hola")
 
     var servidor =
         'https://cors-anywhere.herokuapp.com/' +
