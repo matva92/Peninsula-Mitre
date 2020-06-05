@@ -1,0 +1,91 @@
+
+.img-linea-tiempo {
+    position: relative;
+    height: 45vw;
+}
+
+
+.img-linea-tiempo img {
+    width: 100%;
+    position: absolute;
+    bottom: 50%;
+    margin: 0;
+}
+
+.img-linea-tiempo p{
+    margin: 0;
+    position: absolute;
+    width: 10%;
+    font-size: 0.8vw;
+    opacity: 0.4;
+    transition: 0.4s ease-in-out;
+    transform-origin: left;
+    padding: 4px;
+    z-index: 9;
+}
+
+
+.img-linea-tiempo p.a {
+    top: 45%;
+}
+
+.img-linea-tiempo p.b {
+    top: 20%;
+    left: 5%;
+}
+
+.img-linea-tiempo p.c {
+    top: 33%;
+    left: 18%;
+}
+
+.img-linea-tiempo p.d {
+    top: 10%;
+    left: 30%;
+}
+
+.img-linea-tiempo p.e {
+    top: 45%;
+    left: 43%;    
+}
+
+.img-linea-tiempo p.f {
+    top: 22%;
+    left: 49%;
+}
+
+.img-linea-tiempo p.g {
+    top: 41%;
+    left: 60%;
+}
+
+.img-linea-tiempo p.h {
+    top: 8%;
+    left: 68%;
+    width: 15%;
+    z-index: 10;
+}
+
+.img-linea-tiempo p.i {
+    top: -5%;
+    left: 84%;
+    width: 15%;
+}
+
+.img-linea-tiempo p.j {
+    top: 38%;
+    left: 83%;
+    width: 15%;   
+}
+
+
+
+
+
+/* animacion en hover */
+.img-linea-tiempo p:hover {
+    transform: scale(1.15,1.15);
+    opacity: 1;
+    background-color: white;
+    box-shadow: 0 20px 16px 0 rgba(0, 0, 0, 0.2);
+}

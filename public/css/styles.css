@@ -285,6 +285,7 @@ nav.circle ul li a:hover:after {
     font-size: 1.5rem;
 }
 
+
 .mapa h1{
     margin-top: 0px;
 }
@@ -322,13 +323,6 @@ nav.circle ul li a:hover:after {
     margin-bottom: 3vw;
 }
 
-.tiempo-img {
-    display: block;
-    margin: auto;
-    transition: 0.4s;
-    margin-bottom: 5vw;
-    width: 100%;
-}
 
 
 
