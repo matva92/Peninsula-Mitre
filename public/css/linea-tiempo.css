@@ -128,4 +128,10 @@
         width: 15%;
         z-index: 10;
     }
+
+    .img-linea-tiempo p.i {
+        top: -10%;
+        left: 84%;
+        width: 15%;
+    }
 }
