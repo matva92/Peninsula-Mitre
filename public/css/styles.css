@@ -661,6 +661,9 @@ nav.circle ul li a:hover:after {
     .seccion-medio .col-text {
         padding-bottom: 0%;
     }
+    .seccion-medio-imagen {
+       display: none;
+    }
 }
 
 @media screen and (min-width: 767px) {
