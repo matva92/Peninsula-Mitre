@@ -20,8 +20,9 @@
     opacity: 0.4;
     transition: 0.4s ease-in-out;
     transform-origin: left;
-    padding: 4px;
+    padding: 4.5px;
     z-index: 9;
+    border-radius: 10px;
 }
 
 
@@ -88,4 +89,6 @@
     opacity: 1;
     background-color: white;
     box-shadow: 0 20px 16px 0 rgba(0, 0, 0, 0.2);
+    padding: 4.5px;
+
 }
