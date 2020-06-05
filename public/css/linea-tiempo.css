@@ -48,7 +48,7 @@
 }
 
 .img-linea-tiempo p.d {
-    top: 10%;
+    top: 7%;
     left: 30%;
 }
 
@@ -101,4 +101,37 @@
 
 .img-linea-tiempo p:hover ~ img {
     opacity: 1;
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+    .img-linea-tiempo p.b {
+        top: 15%;
+        left: 5%;
+    }
+
+    .img-linea-tiempo p.d {
+        top: 0%;
+        left: 30%;
+    }
+
+    .img-linea-tiempo p.f {
+        top: 15%;
+        left: 49%;
+    }
+
+    .img-linea-tiempo p.h {
+        top: 0%;
+        left: 68%;
+        width: 15%;
+        z-index: 10;
+    }
+
+    .img-linea-tiempo p.i {
+        top: -10%;
+        left: 84%;
+        width: 15%;
+    }
 }
