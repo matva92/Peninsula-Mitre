@@ -10,6 +10,8 @@
     position: absolute;
     bottom: 50%;
     margin: 0;
+    opacity: 0.5;
+    transition: 0.4s ease-in;
 }
 
 .img-linea-tiempo p{
@@ -90,5 +92,8 @@
     background-color: white;
     box-shadow: 0 20px 16px 0 rgba(0, 0, 0, 0.2);
     padding: 4.5px;
+}
 
+.img-linea-tiempo p:hover ~ img {
+    opacity: 1;
 }
