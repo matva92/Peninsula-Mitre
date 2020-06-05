@@ -504,11 +504,11 @@ nav.circle ul li a:hover:after {
 
 .carousel-item.b {
     min-height: 25vw !important;
-    max-height: 95vh;
+    max-height: 45vw;
 }
 
 .carousel-item.b img {
-    height: 95vh;
+    height: 41vw;
 }
 
 #carouselExampleIndicators li {
