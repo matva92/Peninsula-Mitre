@@ -48,7 +48,7 @@
 }
 
 .img-linea-tiempo p.d {
-    top: 5%;
+    top: 7%;
     left: 30%;
 }
 
@@ -101,4 +101,13 @@
 
 .img-linea-tiempo p:hover ~ img {
     opacity: 1;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .img-linea-tiempo p.d {
+        top: 0%;
+        left: 30%;
+    }
 }
