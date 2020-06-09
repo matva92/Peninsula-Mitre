@@ -8,6 +8,14 @@
     font-size: .9rem;
 }
 
+.timeline {
+    height: 350px;
+}
+
+.timeline .carousel-inner {
+    margin-top: 30px;
+}
+
 #carousel-timeline li {
     width: 8px;
     height: 8px;
