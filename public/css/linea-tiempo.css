@@ -1,4 +1,27 @@
 
+
+.bullets {
+    width: 10%;
+}
+
+.time-items{
+    font-size: .9rem;
+}
+
+#carousel-timeline li {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: gainsboro;
+    opacity: 100;
+    margin: 3px;
+}
+
+#carousel-timeline li.active {
+    background-color: #66d4ff;
+    ;
+}
+
 .img-linea-tiempo {
     margin-top: 90px;
     position: relative;

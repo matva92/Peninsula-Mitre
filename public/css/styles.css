@@ -298,7 +298,7 @@ nav.circle ul li a:hover:after {
     padding: 0 10%;
 }
 
-.mapa-img {
+/* .mapa-img {
     position: relative;
     height: 45vw;
 }
@@ -311,12 +311,13 @@ nav.circle ul li a:hover:after {
     transform: translate(-50%,-50%);
     height: 100%;
     padding: 1.5vw;
-}
+} */
 
 .amenazas p {
     font-family: 'Lato', sans-serif;
-    font-size: 1rem;
+    font-size: .8rem;
     text-align: center;
+    line-height: 1.5;
 }
 
 .amenazas-texto{
@@ -549,6 +550,14 @@ nav.circle ul li a:hover:after {
 
 /* Flora Fauna y Arqueologia */
 
+.carousel-indicators.c {
+    width: 95%;
+    height: 3vw;
+    margin: 0vw 0vw 0vw 5px;
+    padding-bottom: 30px;
+    left: 48%;
+    transform: translateX(-55%);
+}
 
 .titulo-especies {
     font-family: 'Raleway', sans-serif;
