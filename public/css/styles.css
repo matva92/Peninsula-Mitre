@@ -15,8 +15,8 @@ body {
     scroll-behavior: smooth;
 }
 
-.row .carrousel{
-height: 44vw;
+.row .carrousel {
+    height: 44vw;
 }
 
 .carousel-item.a {
@@ -27,7 +27,7 @@ height: 44vw;
     transform: translateX(-3px) translateY(-5px);
     width: 101% !important;
     height: 46vw;
-    min-height: 100%;
+    min-height: 102%;
 }
 
 .titulo-mitre {
@@ -89,21 +89,22 @@ height: 44vw;
     line-height: .3;
 }
 
-.redes a{
+.redes a {
     font-size: .2vw !important;
     line-height: .3;
 }
 
-.list-inline-item a{
+.list-inline-item a {
     font-family: 'Oswald', sans-serif;
     font-size: 1vw !important;
 }
-.redes:hover{
+
+.redes:hover {
     background-color: transparent;
     justify-content: space-between;
 }
 
-.red:hover{
+.red:hover {
     background-color: #F8F9FA;
     color: black;
 }
@@ -164,15 +165,15 @@ h4.vota {
     right: 0;
     bottom: 0;
     text-align: center;
-    margin:0;
+    margin: 0;
 }
 
 .vota a {
     border-radius: 1vw;
     padding: 1PX 8PX 1PX 8PX;
     background-color: white;
-    color:#2bb6ea;
-    font-family:  'Lato', sans-serif;
+    color: #2bb6ea;
+    font-family: 'Lato', sans-serif;
     font-weight: 900;
     font-size: 1.5vw;
     text-decoration: none;
@@ -184,7 +185,7 @@ h4.vota {
 
 .vota a:hover {
     color: white;
-    background-color:#2bb6ea;
+    background-color: #2bb6ea;
 }
 
 
@@ -240,7 +241,7 @@ nav ul li a:before {
 
 nav ul li a:hover {
     color: #2bb6ea;
-    
+
 }
 
 
@@ -286,7 +287,7 @@ nav.circle ul li a:hover:after {
 }
 
 
-.mapa h1{
+.mapa h1 {
     margin-top: 0px;
 }
 
@@ -297,7 +298,6 @@ nav.circle ul li a:hover:after {
     margin-bottom: 5%;
     padding: 0 10%;
 }
-
 
 /* .mapa-img {
     position: relative;
@@ -321,7 +321,7 @@ nav.circle ul li a:hover:after {
     line-height: 1.5;
 }
 
-.amenazas-texto{
+.amenazas-texto {
     margin-bottom: 3vw;
 }
 
@@ -374,7 +374,7 @@ nav.circle ul li a:hover:after {
     left: 10%;
     bottom: 3%;
     right: 10%;
-    background:rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
     transform: scaleY(0);
     transition: transform .5s;
     max-height: 80%;
@@ -477,7 +477,7 @@ nav.circle ul li a:hover:after {
     font-weight: bold;
 }
 
-.seccion-medio-imagen  {
+.seccion-medio-imagen {
     padding-right: 7vw;
 }
 
@@ -572,7 +572,7 @@ nav.circle ul li a:hover:after {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     letter-spacing: .4rem;
-} 
+}
 
 .reservorio {
     font-family: 'Lato', sans-serif;
@@ -580,10 +580,12 @@ nav.circle ul li a:hover:after {
     font-size: 1rem;
     letter-spacing: .2rem;
 }
-.parrafos p{
+
+.parrafos p {
     font-size: .75rem;
     font-family: 'Lato', sans-serif
 }
+
 .marinas {
     position: relative;
     bottom: 6vh;
@@ -597,7 +599,7 @@ nav.circle ul li a:hover:after {
 }
 
 .indice-especies {
-    font-size:.6rem;
+    font-size: .6rem;
     line-height: .75;
 }
 
@@ -667,20 +669,32 @@ nav.circle ul li a:hover:after {
 }
 
 
-@media screen and (max-width: 576px) {
-    .imagen-mapa{
-        max-height: 45vh;
-    }
-}
-
-
 @media screen and (max-width: 767px) {
     .seccion-medio .col-text {
         padding-bottom: 0%;
     }
+
     .seccion-medio-imagen {
-       display: none;
+        display: none;
     }
+
+    .row .carrousel {
+        height: 1000vw;
+    }
+
+    .carousel-item.a {
+        height: 1000px;
+        max-height: 90vw;
+    }
+
+    .carousel-item.header img {
+         height: 100%;
+    }
+
+    .carousel-item.a video {
+        height: 100%   ;
+    }
+
 }
 
 @media screen and (min-width: 767px) {
@@ -768,7 +782,7 @@ nav.circle ul li a:hover:after {
     color: rgb(91, 199, 241);
     text-transform: uppercase;
     transition: 0.1s;
-    font-size: 0.6rem!important;
+    font-size: 0.6rem !important;
     white-space: nowrap;
 }
 
@@ -796,4 +810,3 @@ nav.circle ul li a:hover:after {
 .icon-menu {
     padding: 0px 70px;
 }
-
