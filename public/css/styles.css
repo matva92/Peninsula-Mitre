@@ -669,7 +669,7 @@ nav.circle ul li a:hover:after {
 
 @media screen and (max-width: 576px) {
     .imagen-mapa{
-        max-height: 60vh;
+        max-height: 45vh;
     }
 }
 
