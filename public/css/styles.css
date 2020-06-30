@@ -668,6 +668,12 @@ nav.circle ul li a:hover:after {
     line-height: 1;
 }
 
+@media screen and (max-width: 576px) {
+    .imagen-mapa {
+        max-height: 45vh;
+    }
+}
+
 
 @media screen and (max-width: 767px) {
     .seccion-medio .col-text {
@@ -695,6 +701,32 @@ nav.circle ul li a:hover:after {
         height: 100%   ;
     }
 
+
+    .titulo-mitre {
+        position: relative;
+        height: 15vw;
+        top: 6vw;
+    }
+    
+    .titulo-mitre img {
+        height: 10vw;
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+
+    .list-inline-item a {
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5vw !important;
+    }
+
+    h3.votos {
+       font-size: 4vw;
+    }
+    .vota a {
+        font-size: 2.5vw;
+    }
+    
 }
 
 @media screen and (min-width: 767px) {
