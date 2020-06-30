@@ -298,6 +298,7 @@ nav.circle ul li a:hover:after {
     padding: 0 10%;
 }
 
+
 /* .mapa-img {
     position: relative;
     height: 45vw;
@@ -663,6 +664,13 @@ nav.circle ul li a:hover:after {
     color: green;
     /* Or a color you prefer */
     line-height: 1;
+}
+
+
+@media screen and (max-width: 576px) {
+    .imagen-mapa{
+        max-height: 60vh;
+    }
 }
 
 
