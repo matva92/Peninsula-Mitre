@@ -1,11 +1,11 @@
 function votos() {
 
 
-    var servidor =
+    var server =
         'https://cors-anywhere.herokuapp.com/' +
         'https://www.change.org/p/conservemos-pen%C3%ADnsula-mitre-que-sea-%C3%A1rea-natural-protegida-gobiernotdf-monica-urquiza-federicobilota-legismmartinez-pablovillegas19';
 
-    fetch(servidor)
+    fetch(server)
         .then(res => res.text())
         .then(data => {
             var index = data.match("displayed").index + 11;
